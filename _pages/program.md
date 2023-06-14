@@ -15,7 +15,7 @@ nav-order: 3
 | 11:00 | 11:30 | Invited Talk 2: **Olga Russakovsky** (Princeton University) | :white_check_mark: | :white_check_mark: |
 | 11:30 | 12:00 | Invited Talk 3: **Masashi Sugiyama** (RIKEN & UTokyo) - *Coping with Wild Distribution Shifts: Continuous Shift, Joint Shift, and Beyond* | :white_check_mark: | :white_check_mark: |
 | 12:00 | 01:00 | Lunch break / networking break | :white_check_mark: |  |
-| 01:00 | 01:35 | Keynote 3: **Isabelle Guyon** (Google Brain) - *Data creation*| :white_check_mark: | :white_check_mark: |
+| 01:00 | 01:35 | Keynote 3: **Isabelle Guyon** (Google Brain) - *Towards Data-Centric AutoML*|| :white_check_mark: |
 | 01:35 | 02:15 | *DataPerf Challenge* - **Peter Mattson** (Google & MLCommons) | :white_check_mark: | :white_check_mark: |
 | 02:15 | 02:30 | Announcement DMLR Journal (Selected members of DMLR Advisory Board) | :white_check_mark: | :white_check_mark: |
 | 02:30 | 03:15 | Panel discussions | :white_check_mark: |  |
