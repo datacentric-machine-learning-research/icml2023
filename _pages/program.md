@@ -17,8 +17,8 @@ nav-order: 3
 | 12:00 | 01:00 | Lunch break / networking break | :white_check_mark: |  |
 | 01:00 | 01:35 | Keynote 3: **Isabelle Guyon** (Google Brain) - *Towards Data-Centric AutoML*|| :white_check_mark: |
 | 01:35 | 02:05 | Invited Talk 3: **Dina Machuve** (DevData Analytics) - *Data for Agriculture: :  Opportunities and Challenges in East Africa* || :white_check_mark: |
-| 02:05 | 02:35 | Announcement DMLR Journal (Selected members of DMLR Advisory Board) | :white_check_mark: | :white_check_mark: |
-| 02:35 | 03:15 | Panel discussions | :white_check_mark: |  |
+| 02:05 | 02:20 | Announcement DMLR Journal (Selected members of DMLR Advisory Board) | :white_check_mark: | :white_check_mark: |
+| 02:20 | 03:15 | Panel discussions | :white_check_mark: |  |
 | 03:15 | 03:30 | Coffee break | :white_check_mark: |  |
 | 03:30 | 04:30 | Poster Session In-Person | :white_check_mark: | |
 | 04:30 | 05:00 | Poster Session Virtual | | :white_check_mark: |
