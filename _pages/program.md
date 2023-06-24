@@ -5,8 +5,8 @@ permalink: /program/
 nav: true
 nav-order: 3
 ---
-| Start | End | Content | In-person | Virtual |
-|:---:|:---:|:---|:---:|:---:|
+| Start    | End    | Description | In-person | Virtual |
+|:---:  |:---:  |:---|:---:|:---:|
 | 09:00 | 09:05 | Introduction and Opening| :white_check_mark: | :white_check_mark: |
 | 09:05 | 09:40 | Keynote 1: **Andrew Ng** (Landing AI) || :white_check_mark: |
 | 09:40 | 10:10 | *DataPerf Challenge* - **Peter Mattson** (Google & MLCommons) | :white_check_mark: | :white_check_mark: |
