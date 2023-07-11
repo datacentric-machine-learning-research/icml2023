@@ -5,7 +5,10 @@ permalink: /accepted/
 nav: true
 nav-order: 0
 ---
-# Poster with manuscript
+
+We thank all authors who submitted to DMLR'23. All accepted manuscripts are listed below in random order. Authors who did not opt-in to publish their manuscript on the DMLR site have only the title of their work listed. Congrats to all author teams for being accepted to DMLR'23!
+
+## Posters with manuscript
 
 | **Paper Title**                                                                                                                    | **Authors**                                                                                                                                                                                                                                                                                                                                                   | **Files**                                                                                                                                                                 |
 |:-----------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -153,7 +156,7 @@ nav-order: 0
 | | | |
 | *Put on your detective hat: What's wrong in this video?*                                                                           | Rohith Peddi (The University of Texas at Dallas)*; Shivvrat Arya (The University of Texas at Dallas ); Bharath Challa (The University of Texas at Dallas); Likhitha  Pallapothula (University of Texas at Dallas ); AKSHAY VYAS (University of Texas at Dallas); Qifan Zhang (The University of Texas at Dallas); Jikai Wang (University of Texas at Dallas); Vasundhara Komaragiri (UT Dallas); Eric  Ragan (University of Florida); Nicholas Ruozzi (UT Dallas); Yu Xiang (The University of Texas at Dallas); Vibhav Gogate (UT Dallas) | [pdf](https://dmlr.ai/assets/accepted-papers/136/CameraReady/DMLR_ICML_2023_1.pdf) |                                                                              |
 
-# Poster without manuscript
+## Posters without manuscript
 
 | **Title**                                                                                             | **Authors**                                                                                                                                                                                                                                                                                                              |
 |:------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
