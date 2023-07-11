@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Program Committee ♡
+title: Program Committee
 permalink: /pc/
 nav: true
 nav-order: 2
