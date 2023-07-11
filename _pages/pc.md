@@ -3,7 +3,7 @@ layout: page
 title: Program Committee
 permalink: /pc/
 nav: true
-nav-order: 3
+nav-order: 2
 ---
 
 | First Name | Last Name | Organization |
