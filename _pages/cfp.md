@@ -2,7 +2,7 @@
 layout: page
 title: Submit
 permalink: /cfp/
-nav: true
+nav: false
 nav-order: 2
 ---
 **Submission site:** [https://cmt3.research.microsoft.com/DMLR2023/](https://cmt3.research.microsoft.com/DMLR2023/).
