@@ -4,7 +4,7 @@ title: Organizers
 permalink: /organizers/
 description: The people who donate their time to make the workshop happen. Each time the site is recompiled the order is reshuffled &#35;perpetualrevolution 😉.
 nav: true
-nav-order: 4
+nav-order: 3
 ---
 
 <div class="projects grid">
