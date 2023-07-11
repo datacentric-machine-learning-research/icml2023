@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Program Committee
+title: Program Committee ♡
 permalink: /pc/
 nav: true
 nav-order: 2
 ---
+
+DMLR is made possible by an exceptional program committee who volunteer their time and expertise to review submissions.
 
 | First Name | Last Name | Organization |
 | --- | --- | --- |
