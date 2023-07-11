@@ -3,7 +3,7 @@ layout: page
 title: Program
 permalink: /program/
 nav: true
-nav-order: 3
+nav-order: 1
 ---
 | Start    |   End    |   Description | In-person | Virtual |
 |:---  |:---  |:---|:---:|:---:|
