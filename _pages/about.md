@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Data-centric Machine Learning Research (DMLR) Workshop at ICML 2023
+description: Data-centric Machine Learning Research (DMLR) Workshop at ICML 2023 (Saturday, July 29)
 
 profile:
   align: #right
