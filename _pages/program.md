@@ -2,10 +2,11 @@
 layout: page
 title: Program 
 permalink: /program/
-date: July 29, 2023 (Hawaii Standard Time)
 nav: true
 nav-order: 1
 ---
+
+## July 29, 2023 (Hawaii Standard Time)
 
 | Start    |   End    |   Description | In-person | Virtual |
 |:---  |:---  |:---|:---:|:---:|
