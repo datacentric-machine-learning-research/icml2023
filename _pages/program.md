@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Program
+title: Program July 29, 2023 (Hawaii Standard Time)
 permalink: /program/
 nav: true
 nav-order: 1
