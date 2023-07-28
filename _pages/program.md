@@ -18,7 +18,7 @@ nav-order: 1
 | 11:00 |   11:30 |    Invited Talk 1: **Olga Russakovsky** (Princeton University) || :white_check_mark: |
 | 11:30 |   12:00 |    Invited Talk 2: **Masashi Sugiyama** (RIKEN & UTokyo) - *Coping with Wild Distribution Shifts: Continuous Shift, Joint Shift, and Beyond* | :white_check_mark: | :white_check_mark: |
 | 12:00 |   01:00 |    Lunch break / networking break | :white_check_mark: |  |
-| 01:00 |   01:35 |    Keynote 3: **Isabelle Guyon** (Google Brain) - *Towards Data-Centric AutoML*|| :white_check_mark: |
+| 01:00 |   01:35 |    Keynote 3: **Isabelle Guyon** (Google Research) - *Towards Data-Centric AutoML*|| :white_check_mark: |
 | 01:35 |   02:05 |    Invited Talk 3: **Dina Machuve** (DevData Analytics) - *Data for Agriculture: :  Opportunities and Challenges in East Africa* || :white_check_mark: |
 | 02:05 |   02:20 |    Announcement DMLR Journal (Selected members of DMLR Advisory Board) | :white_check_mark: | :white_check_mark: |
 | 02:20 |   03:15 |    Panel discussions | :white_check_mark: |  |
