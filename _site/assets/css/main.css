@@ -52,7 +52,7 @@ body.sticky-bottom-footer {
   padding-bottom: 0; }
 
 .container {
-  max-width: 800px; }
+  max-width: 1200px; }
 
 .profile img {
   width: 100%; }
@@ -114,7 +114,7 @@ a, table.table a {
       text-decoration: none; }
 
 .navbar {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   box-shadow: none;
   border-bottom: 1px solid #e8e8e8;
@@ -185,7 +185,7 @@ a, table.table a {
     font-size: 0.8rem; }
 
 footer.fixed-bottom {
-  max-width: 800px;
+  max-width: 1200px;
   text-align: center;
   margin: 0 auto;
   background-color: var(--global-footer-bg-color);
@@ -201,7 +201,7 @@ footer.fixed-bottom {
       text-decoration: none; }
 
 footer.sticky-bottom {
-  max-width: 800px;
+  max-width: 1200px;
   text-align: center;
   margin: 0 auto;
   border-top: 1px solid #e8e8e8;

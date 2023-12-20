@@ -85,9 +85,13 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
+    mini_portile2 (2.5.3)
     minitest (5.14.4)
     multipart-post (2.1.1)
     namae (1.0.2)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nokogiri (1.11.1-x64-mingw32)
       racc (~> 1.4)
     nokogiri (1.11.1-x86_64-linux)
@@ -118,10 +122,12 @@ GEM
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
     unicode_utils (1.4.0)
+    webrick (1.8.1)
     zeitwerk (2.4.2)
 
 PLATFORMS
   x64-mingw32
+  x86_64-darwin-22
   x86_64-linux
   x86_64-linux-musl
 
@@ -135,6 +141,7 @@ DEPENDENCIES
   jemoji
   kramdown-parser-gfm
   unicode_utils
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.2.3
