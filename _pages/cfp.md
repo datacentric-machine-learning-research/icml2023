@@ -26,9 +26,9 @@ All authors and submissions should adhere to the [ICLR policy](https://www.iclr.
 ### Important Dates
 
 (Time zone: Anywhere on Earth) <br>
-Paper Submission deadline: 26 May 2024 <br>
-Notification of Acceptance: 19 June 2024 <br>
-Camera Ready Copy due: (Tentative) 3 July 2024 <br>
+Paper Submission deadline: 3 Feb 2024 <br>
+Notification of Acceptance: 3 Mar 2024 <br>
+Camera Ready Copy due: <span style="color:red">(Tentative) ? ?? 2024 </span><br>
 Workshop: 11 May 2024
 
 ### DMLR Journal
