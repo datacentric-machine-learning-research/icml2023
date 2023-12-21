@@ -7,8 +7,6 @@ nav: true
 nav-order: 3
 ---
 
-*page needs to be updated*
-
 <div class="projects grid">
 
   {% assign sorted_contributors = site.contributors | sample:100 %}

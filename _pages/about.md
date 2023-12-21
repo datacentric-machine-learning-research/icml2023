@@ -12,6 +12,12 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
+<!---
+add
+https://mlcommons.org/working-groups/research/dmlr/
+-->
+
+Organized by members of the DMLR working group at [MLCommons](https://mlcommons.org/working-groups/research/dmlr/)
 
 {% include visual.html %}
 
@@ -94,13 +100,29 @@ social: false  # includes social icons at the bottom of the page
 </div>
 
 <br>
+
+### Harnessing Momentum for Science
+
 This is the fourth edition of highly successful workshops focused on data-centric AI, following the success of the Data-Centric AI workshop at NeurIPS 2021, ICML 2022, and ICML 2023.
 
-**AI for science** uses AI to tackle unique scientific challenges, uncover rare phenomena, deepen our understanding of scientific domains, and accelerate discoveries. The traditional model-centric AI approach primarily focuses on algorithmic improvements and often overlooks the foundational role of data. This is particularly problematic in scientific contexts where there are strong emphases on both prediction from and explanation of data. In science, ML pipelines are often interwoven with the inputs and outputs of theoretical models which depend on robust data and reliable model outputs. In large science projects and missions that produce vast amounts of data, efficient data-centric AI frameworks are essential for maximizing the potential of expensive experiments and missions. This being said, the integrity of AI systems is intrinsically tied to the quality of their training data. The high stakes in science leave no room for errors due to poor data. For scientists to trust AI systems, data quality, including precise labeling and comprehensive coverage, is vital.
+**AI for science:** Unlike general AI, AI for Science uses AI to tackle unique scientific challenges, uncover rare
+phenomena, deepen our understanding of scientific domains, and accelerate discoveries. The traditional model-
+centric AI approach primarily focuses on algorithmic improvements and often overlooks the foundational role of
+data. This is particularly problematic in scientific contexts where there are strong emphases on both prediction
+from and explanation of data. In large science projects and missions that produce vast amounts of data (e.g., at CERN, NASA), efficient data-centric AI frameworks are essential for maximizing the potential of expensive experiments and missions. In contrast, biomedical research surfaces different data-centric AI issues surrounding sparsity (e.g., to understand OOD cases, estimate causal effects), privacy, and fairness. The significance of a data-centric AI framework in science is manifold:
+* Scientific research is inherently data-driven.
+* The integrity of AI systems is intrinsically tied to the quality of their training data. The high stakes in science leave no room for errors due to poor data. For scientists to trust AI systems, data quality, including precise labeling and comprehensive coverage, is vital.
+* The vastness of scientific data demands robust data management for consistent future model evaluations.
+* Ethical considerations, such as data privacy, biases, and diverse representation, are central to scientific re-
+search.
+* Science domain experts provide insights that models alone cannot, ensuring data aligns with scientific objec-
+tives and bolsters research reliability.
+* There is a need for strong norms around rigorous, data-driven machine learning akin to those surrounding
+mathematical and statistical modeling.
 
-This workshop aims to showcase the latest research in the area of AI for science. By showcasing these breakthroughs and fostering collaboration, it seeks to break down the research barriers between AI and science.
+This workshop aims to showcase the latest research in the area of AI for science. By showcasing these breakthroughs and fostering collaboration, it seeks to break down the research barriers between AI and science. Our ultimate goal is to cultivate a collaborative environment that brings together a diverse array of researchers, practitioners, domain experts, data and platform providers, and engineers, all of whom are tackling pressing data-related challenges in science research and application.
 
-### Topics will include, but not limited to:
+**Topics will include, but are not limited to:**
 * Data collection and benchmarking techniques
 * Data governance frameworks for ML
 * Impact of data bias, variance, and drifts
@@ -108,16 +130,22 @@ This workshop aims to showcase the latest research in the area of AI for science
 *	Optimal data for standard evaluation framework in the context of changing model landscape
 *	Domain specific data issues
 *	Data-centric explainable AI
+* Data-centric approaches to AI alignment
+* Active learning, Data cleaning, acquisition for ML
 
-Bridging the gap between seasoned expertise and fresh perspectives, our keynote/invited/tutorial talks will showcase the work of established, mid and early-career researchers. This well-rounded mix promises a vibrant exchange of ideas and fosters dynamic advancements in the field.
+**Modality: hybrid**
 
-## Awards
-A few selected exceptional research papers from DMLR workshop 2024 will be invited to contribute to the **DMLR journal**; the latest member of the JMLR family, aiming to provide a top archival venue for high-quality scholarly articles focused on the data aspect of machine learning research. The top submissions to the DMLR workshops will be invited to submit extended versions of their papers to the DMLR journal.
+**Session organization: virtual + in-person engagement**
 
+We aim at a discussion-centric workshop to allow for in-depth coverage of state-of-art and work-in-progress
+efforts and panel discussion and poster presentation along the data lifecycle in machine learning research and
+engineering: creation, quality and processing, governance and management/infrastructure.
 
-## Student Scholarship
-
-*tba*
+The workshop will be organized in four components:
+* Keynotes and invited talks
+* Open panel discussions
+* Poster sessions
+* Networking sessions
 
 <!-- {% if page.news %}
   {% include news.html %}
