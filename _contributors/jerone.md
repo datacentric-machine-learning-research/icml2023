@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Jerone Andrews
-img: 
+img: /assets/img/jerone.jpg 
 affiliation: Sony AI
 minibio: Research Scientist
 mail: jerone.andrews@sony.com
