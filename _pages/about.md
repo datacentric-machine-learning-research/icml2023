@@ -17,8 +17,6 @@ add
 https://mlcommons.org/working-groups/research/dmlr/
 -->
 
-Organized by members of the DMLR working group at [MLCommons](https://mlcommons.org/working-groups/research/dmlr/)
-
 {% include visual.html %}
 
 # Speakers
@@ -146,6 +144,15 @@ The workshop will be organized in four components:
 * Open panel discussions
 * Poster sessions
 * Networking sessions
+
+# About DMLR
+
+DMLR open community
+
+We organize workshops, maintain a journal, partner with UN organizations for public good data sourcing and run a formal working group at MLC to advance infrastructure projectsJournal
+
+Many of the Organized by members of the DMLR working group at [MLCommons](https://mlcommons.org/working-groups/research/dmlr/)
+
 
 <!-- {% if page.news %}
   {% include news.html %}
