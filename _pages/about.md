@@ -147,11 +147,11 @@ The workshop will be organized in four components:
 
 # About DMLR
 
-DMLR open community
+DMLR is an open, distributed community organizing activities to discuss and advance research in data-centric machine learning.
 
-We organize workshops, maintain a journal, partner with UN organizations for public good data sourcing and run a formal working group at MLC to advance infrastructure projectsJournal
+We organize [workshops and research retreats](https://dmlr.ai/), maintain [a journal](https://data.mlr.press/), and run a [working group at Machine Learning Commons (MLC)](https://mlcommons.org/working-groups/research/dmlr/) to support infrastructure projects.
 
-Many of the Organized by members of the DMLR working group at [MLCommons](https://mlcommons.org/working-groups/research/dmlr/)
+You can find more details about the scope and history of our activities in the editorial [Data-centric Machine Learning Research -- Past, Present and Future](https://arxiv.org/abs/2311.13028).
 
 
 <!-- {% if page.news %}
