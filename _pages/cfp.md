@@ -8,9 +8,10 @@ nav-order: 0
 
 All authors and submissions should adhere to the [ICLR policy](https://www.iclr.cc/Conferences/2024/AuthorGuide).
 
-* We welcome three types of paper submissions:
+* We welcome two types of paper submissions:
   * **Research papers:** up to 8 pages (not including references and appendices). Acceptable material includes original and high-quality unpublished contributions to the theory, practical aspects, as well as position papers relevant to the workshop topics.
   * **Extended abstracts:** up to 2 pages (not including references and appendices). Acceptable material includes work which has already been submitted or published, preliminary results and controversial findings.<br>
+* For examples of past accepted papers you can browse [DMLR@ICML'23](https://dmlr.ai/23/accepted/). For a non-exhaustive list of DMLR topics and activities you can consult the editorial [DMLR: Data-centric Machine Learning Research -- Past, Present and Future](https://arxiv.org/abs/2311.13028).
 * Posting all versions of a paper (with the exception of the final published version) that is submitted to DMLR workshop, on preprint servers like ArXiv is permitted. Once the paper is accepted, the preprint version should be marked with the publication information including DOI.
 * All submissions must represent original work and not previously published elsewhere.
 * Concurrent submission of papers to a conference/journal (involving identical or substantially similar work) is not permitted.
