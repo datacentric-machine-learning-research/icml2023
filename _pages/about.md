@@ -12,12 +12,6 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-<!---
-add
-https://mlcommons.org/working-groups/research/dmlr/
--->
-
-Organized by members of the DMLR working group at [MLCommons](https://mlcommons.org/working-groups/research/dmlr/)
 
 {% include visual.html %}
 
@@ -146,6 +140,16 @@ The workshop will be organized in four components:
 * Open panel discussions
 * Poster sessions
 * Networking sessions
+
+# About DMLR
+
+DMLR is an open, distributed community organizing activities to discuss and advance research in data-centric machine learning.
+
+We organize [workshops and research retreats](https://dmlr.ai/), maintain [a journal](https://data.mlr.press/), and run a [working group at Machine Learning Commons (MLC)](https://mlcommons.org/working-groups/research/dmlr/) to support infrastructure projects.
+
+You can find more details about the scope and history of our activities in the editorial [Data-centric Machine Learning Research -- Past, Present and Future](https://arxiv.org/abs/2311.13028).
+
+
 
 <!-- {% if page.news %}
   {% include news.html %}
