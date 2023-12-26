@@ -9,4 +9,4 @@ nav-order: 4
 
 ### ICML 2023
 - [Accepted Papers](/23/accepted/)
-- [Program](/23/program23/)
+- [Program](/23/program/)
