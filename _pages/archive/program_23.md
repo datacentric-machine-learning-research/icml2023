@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Program @ DMLR in ICML 2023
+title: Program DMLR@ICML 2023
 permalink: /23/program/
 nav: false
 nav-order: 1

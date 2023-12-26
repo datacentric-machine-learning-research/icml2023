@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accepted Papers @ DMLR in ICML 2023
+title: Accepted Papers DMLR@ICML 2023
 permalink: /23/accepted/
 nav: false
 nav-order: 0
