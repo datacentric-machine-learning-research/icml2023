@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Accepted Papers
-permalink: /accepted23/
+title: Accepted Papers @ DMLR in ICML 2023
+permalink: /23/accepted/
 nav: false
 nav-order: 0
 ---
