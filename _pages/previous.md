@@ -7,6 +7,6 @@ dropdown: true
 nav-order: 4
 ---
 
-### DCML@ICML 2023
+### DMLR@ICML 2023
 - [Accepted Papers](/23/accepted/)
 - [Program](/23/program/)
