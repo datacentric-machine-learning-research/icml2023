@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Xiaozhe Yao
-img:  
+img: /assets/img/xiaozhe.jpeg 
 affiliation:  ETH Zurich 
 minibio: PhD Student
 mail: xiaozhe.yao@inf.ethz.ch
