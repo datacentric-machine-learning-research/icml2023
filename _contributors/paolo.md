@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Paolo Climaco
-img: 
+img: /assets/img/paolo.jpg
 affiliation: Bonn University
 minibio: PhD student
 mail: climaco@ins.uni-bonn.de

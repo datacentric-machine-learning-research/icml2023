@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Holger Caesar
-img: 
+img: /assets/img/holger.jpg
 affiliation: TU Delft
 minibio: Assistant Professor
 mail: h.caesar@tudelft.nl
