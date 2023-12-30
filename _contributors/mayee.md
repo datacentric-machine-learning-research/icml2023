@@ -1,9 +1,9 @@
 ---
 layout: contributor
 name: Mayee Chen
-img: 
+img: /assets/img/mayee.jpg
 affiliation: Stanford AI Lab
-minibio: PhD student
+minibio: PhD Student
 mail: mfchen@stanford.edu
 website: https://mayeechen.github.io/
 twitter: 
