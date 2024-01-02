@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Bernhard Koch
-img:  
+img: /assets/img/bernhard.jpeg  
 affiliation: University of Chicago
 minibio: Assistant Professor of Sociology 
 mail: bernard.koch@kellogg.northwestern.edu 
