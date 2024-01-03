@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Sang Truong
-img:  
+img: /assets/img/sang.png  
 affiliation:  Stanford AI Lab 
 minibio: PhD Student
 mail: sttruong@cs.stanford.edu 
