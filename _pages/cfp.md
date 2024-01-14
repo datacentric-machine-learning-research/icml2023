@@ -43,7 +43,7 @@ An overview of the history and vision behind DMLR, including links to previous k
     </div>
 </div>
 <div class="caption">
-    caption
+    A timeline of some inflection points in the development of data-centric ideas. See the editorial [*DMLR: Data-centric Machine Learning Research -- Past, Present and Future*](https://arxiv.org/abs/2311.13028) for more details.
 </div>
 
 ### DMLR Journal
