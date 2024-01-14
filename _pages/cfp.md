@@ -31,6 +31,12 @@ All authors and submissions should adhere to the [ICLR policy](https://www.iclr.
 * Camera Ready Copy due: Coming Soon
 * Workshop: 11 May 2024
 
+### Topics and Scope
+
+If you are looking for examples of works previously presented at DMLR, you can find a list of papers [here](https://dmlr.ai/23/accepted/).
+
+A brief overview of the history and vision behind DMLR, including links to previous keynotes, you can find in our editorial [*DMLR: Data-centric Machine Learning Research -- Past, Present and Future*](https://arxiv.org/abs/2311.13028).
+
 ### DMLR Journal
 The [Journal of Data-centric Machine Learning Research (DMLR)](https://data.mlr.press/) is the latest member of the JMLR family, aiming to provide a top archival venue for high-quality scholarly articles focused on the data aspect of machine learning research. The top submissions to the DMLR workshops will be invited to submit extended version of their paper to the DMLR journal.
 
