@@ -32,7 +32,6 @@ All authors and submissions should adhere to the [ICLR policy](https://www.iclr.
 * Workshop: 11 May 2024
 
 ### Topics and Scope
-
 If you are looking for examples of works previously presented at DMLR, you can find a list of papers [here](https://dmlr.ai/23/accepted/).
 
 An overview of the history and vision behind DMLR, including links to previous keynotes, you can find in our editorial [DMLR: Data-centric Machine Learning Research -- Past, Present and Future](https://arxiv.org/abs/2311.13028).
