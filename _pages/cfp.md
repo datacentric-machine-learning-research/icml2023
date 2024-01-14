@@ -35,7 +35,16 @@ All authors and submissions should adhere to the [ICLR policy](https://www.iclr.
 
 If you are looking for examples of works previously presented at DMLR, you can find a list of papers [here](https://dmlr.ai/23/accepted/).
 
-A brief overview of the history and vision behind DMLR, including links to previous keynotes, you can find in our editorial [*DMLR: Data-centric Machine Learning Research -- Past, Present and Future*](https://arxiv.org/abs/2311.13028).
+An overview of the history and vision behind DMLR, including links to previous keynotes, you can find in our editorial [*DMLR: Data-centric Machine Learning Research -- Past, Present and Future*](https://arxiv.org/abs/2311.13028).
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/time.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    caption
+</div>
 
 ### DMLR Journal
 The [Journal of Data-centric Machine Learning Research (DMLR)](https://data.mlr.press/) is the latest member of the JMLR family, aiming to provide a top archival venue for high-quality scholarly articles focused on the data aspect of machine learning research. The top submissions to the DMLR workshops will be invited to submit extended version of their paper to the DMLR journal.
