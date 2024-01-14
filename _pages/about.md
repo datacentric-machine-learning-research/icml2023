@@ -127,6 +127,19 @@ This workshop aims to showcase the latest research in the area of AI for science
 * Data-centric approaches to AI alignment
 * Active learning, Data cleaning, acquisition for ML
 
+If you are looking for examples of works previously presented at DMLR, you can find a list of papers [here](https://dmlr.ai/23/accepted/).
+
+An overview of the history and vision behind DMLR, including links to previous keynotes, you can find in our editorial [DMLR: Data-centric Machine Learning Research -- Past, Present and Future](https://arxiv.org/abs/2311.13028).
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/time.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A timeline of some inflection points in the development of data-centric ideas. See the editorial <a href="https://arxiv.org/abs/2311.13028">DMLR: Data-centric Machine Learning Research -- Past, Present and Future</a> for more details.
+</div>
+
 **Modality: hybrid**
 
 **Session organization: virtual + in-person engagement**
