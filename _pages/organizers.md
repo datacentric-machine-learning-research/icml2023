@@ -22,7 +22,7 @@ nav-order: 3
         <img src="{{ contributor.img | relative_url }}" alt="contributor thumbnail">
         {% endif %}
         <div class="card-body">
-          <h2 class="card-title">{{ contributor.name }}</h2>
+          <h3 class="card-title">{{ contributor.name }}</h3>
           <p class="card-title">{{ contributor.affiliation }}</p>
           <p class="card-text">{{ contributor.minibio }}</p>
           <br/>

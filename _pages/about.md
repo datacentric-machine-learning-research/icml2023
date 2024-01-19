@@ -31,7 +31,7 @@ social: false  # includes social icons at the bottom of the page
         <img src="{{ speaker.img | relative_url }}" alt="speaker thumbnail">
         {% endif %}
         <div class="card-body">
-          <h2 class="card-title">{{ speaker.name }}</h2>
+          <h3 class="card-title">{{ speaker.name }}</h3>
           <p class="card-title">{{ speaker.affiliation }}</p>
           <p class="card-text">{{ speaker.minibio }}</p>
           <br/>
