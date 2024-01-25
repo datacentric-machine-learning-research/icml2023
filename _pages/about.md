@@ -122,23 +122,26 @@ An overview of the history and vision behind DMLR, including links to previous k
 <div class="caption">
     A timeline of inflection points in the development of data-centric ideas. See the editorial <a href="https://arxiv.org/abs/2311.13028">DMLR: Data-centric Machine Learning Research -- Past, Present and Future</a> for more details.
 </div>
+<br>
 
-In addition, the DMLR workshop at ICLR 2024 encourages submissions around this year's theme on AI for Science.
+**AI for Science:** In addition, the DMLR workshop at ICLR 2024 encourages submissions around this year's theme on AI for Science. Unlike general AI, AI for Science uses AI to tackle unique scientific challenges, uncover rare
+phenomena, deepen our understanding of scientific domains, and accelerate discoveries. Data-centric topics include but are not limited to:
 
-**ICLR 2024 Theme - AI for Science:** Unlike general AI, AI for Science uses AI to tackle unique scientific challenges, uncover rare
-phenomena, deepen our understanding of scientific domains, and accelerate discoveries. The traditional model-
-centric AI approach primarily focuses on algorithmic improvements and often overlooks the foundational role of
-data. This is particularly problematic in scientific contexts where there are strong emphases on both prediction
-from and explanation of data. In large science projects and missions that produce vast amounts of data (e.g., at CERN, NASA), efficient data-centric AI frameworks are essential for maximizing the potential of expensive experiments and missions. In contrast, biomedical research surfaces different data-centric AI issues surrounding sparsity (e.g., to understand OOD cases, estimate causal effects), privacy, and fairness. The significance of a data-centric AI framework in science is manifold:
-* Scientific research is inherently data-driven.
-* The integrity of AI systems is intrinsically tied to the quality of their training data. The high stakes in science leave no room for errors due to poor data. For scientists to trust AI systems, data quality, including precise labeling and comprehensive coverage, is vital.
-* The vastness of scientific data demands robust data management for consistent future model evaluations.
-* Ethical considerations, such as data privacy, biases, and diverse representation, are central to scientific re-
-search.
-* Science domain experts provide insights that models alone cannot, ensuring data aligns with scientific objec-
-tives and bolsters research reliability.
-* There is a need for strong norms around rigorous, data-driven machine learning akin to those surrounding
-mathematical and statistical modeling.
+* Scientific research as inherently data-driven.
+* AI system integrity depending on high-quality training data, crucial in high-stakes science.
+* Essential robust data management for vast scientific data, as seen in projects at CERN and NASA.
+* Ethical considerations such as data privacy, biases, and diverse representation in scientific research.
+* The role of science domain experts in ensuring data aligns with scientific objectives, vital for research reliability.
+* The need for rigorous, data-driven machine learning standards, akin to those in mathematical and statistical modeling.
+
+In [collaboration with the United Nations AI for Good program](https://aiforgood.itu.int/about-ai-for-good/discovery/#Datacentric) we now offer top submissions the opportunity to give a spotlight talk at the [AI for Good Discovery Track](https://aiforgood.itu.int/about-ai-for-good/discovery/). Authors can select the option to be considered for a spotlight presentation during the submission process.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/dmlrforgood.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<br>
 
 ### Logistics
 
