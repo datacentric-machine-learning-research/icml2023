@@ -31,7 +31,19 @@ All authors and submissions should adhere to the [ICLR policy](https://www.iclr.
 * Camera Ready Copy due: Coming Soon
 * Workshop: 11 May 2024
 
-### Topics and Scope
+### Topics and Theme
+
+**Topics will include, but are not limited to:**
+* Data collection and benchmarking techniques
+* Data governance frameworks for ML
+* Impact of data bias, variance, and drifts
+*	Role of data in foundation models: pre-training, prompting, fine-tuning
+*	Optimal data for standard evaluation framework in the context of changing model landscape
+*	Domain specific data issues
+*	Data-centric explainable AI
+* Data-centric approaches to AI alignment
+* Active learning, Data cleaning, acquisition for ML
+
 If you are looking for examples of works previously presented at DMLR, you can find a list of papers [here](https://dmlr.ai/23/accepted/).
 
 An overview of the history and vision behind DMLR, including links to previous keynotes, you can find in our editorial [DMLR: Data-centric Machine Learning Research -- Past, Present and Future](https://arxiv.org/abs/2311.13028).
@@ -44,6 +56,26 @@ An overview of the history and vision behind DMLR, including links to previous k
 <div class="caption">
     A timeline of inflection points in the development of data-centric ideas. See the editorial <a href="https://arxiv.org/abs/2311.13028">DMLR: Data-centric Machine Learning Research -- Past, Present and Future</a> for more details.
 </div>
+<br>
+
+**AI for Science:** In addition, the DMLR workshop at ICLR 2024 encourages submissions around this year's theme on AI for Science. Unlike general AI, AI for Science uses AI to tackle unique scientific challenges, uncover rare
+phenomena, deepen our understanding of scientific domains, and accelerate discoveries. Data-centric topics include but are not limited to:
+
+* Scientific research as inherently data-driven.
+* AI system integrity depending on high-quality training data, crucial in high-stakes science.
+* Essential robust data management for vast scientific data, as seen in projects at CERN and NASA.
+* Ethical considerations such as data privacy, biases, and diverse representation in scientific research.
+* The role of science domain experts in ensuring data aligns with scientific objectives, vital for research reliability.
+* The need for rigorous, data-driven machine learning standards, akin to those in mathematical and statistical modeling.
+
+In [collaboration with the United Nations AI for Good program](https://aiforgood.itu.int/about-ai-for-good/discovery/#Datacentric) we now offer top submissions the opportunity to give a spotlight talk at the [AI for Good Discovery Track](https://aiforgood.itu.int/about-ai-for-good/discovery/). Authors can select the option to be considered for a spotlight presentation during the submission process.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/dmlrforgood.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<br>
 
 ### DMLR Journal
 The [Journal of Data-centric Machine Learning Research (DMLR)](https://data.mlr.press/) is the latest member of the JMLR family, aiming to provide a top archival venue for high-quality scholarly articles focused on the data aspect of machine learning research. The top submissions to the DMLR workshops will be invited to submit extended version of their paper to the DMLR journal.
