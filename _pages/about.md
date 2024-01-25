@@ -95,26 +95,9 @@ social: false  # includes social icons at the bottom of the page
 
 <br>
 
-### Harnessing Momentum for Science
+### Topics and Theme
 
 This is the fourth edition of highly successful workshops focused on data-centric AI, following the success of the Data-Centric AI workshop at NeurIPS 2021, ICML 2022, and ICML 2023.
-
-**AI for science:** Unlike general AI, AI for Science uses AI to tackle unique scientific challenges, uncover rare
-phenomena, deepen our understanding of scientific domains, and accelerate discoveries. The traditional model-
-centric AI approach primarily focuses on algorithmic improvements and often overlooks the foundational role of
-data. This is particularly problematic in scientific contexts where there are strong emphases on both prediction
-from and explanation of data. In large science projects and missions that produce vast amounts of data (e.g., at CERN, NASA), efficient data-centric AI frameworks are essential for maximizing the potential of expensive experiments and missions. In contrast, biomedical research surfaces different data-centric AI issues surrounding sparsity (e.g., to understand OOD cases, estimate causal effects), privacy, and fairness. The significance of a data-centric AI framework in science is manifold:
-* Scientific research is inherently data-driven.
-* The integrity of AI systems is intrinsically tied to the quality of their training data. The high stakes in science leave no room for errors due to poor data. For scientists to trust AI systems, data quality, including precise labeling and comprehensive coverage, is vital.
-* The vastness of scientific data demands robust data management for consistent future model evaluations.
-* Ethical considerations, such as data privacy, biases, and diverse representation, are central to scientific re-
-search.
-* Science domain experts provide insights that models alone cannot, ensuring data aligns with scientific objec-
-tives and bolsters research reliability.
-* There is a need for strong norms around rigorous, data-driven machine learning akin to those surrounding
-mathematical and statistical modeling.
-
-This workshop aims to showcase the latest research in the area of AI for science. By showcasing these breakthroughs and fostering collaboration, it seeks to break down the research barriers between AI and science. Our ultimate goal is to cultivate a collaborative environment that brings together a diverse array of researchers, practitioners, domain experts, data and platform providers, and engineers, all of whom are tackling pressing data-related challenges in science research and application.
 
 **Topics will include, but are not limited to:**
 * Data collection and benchmarking techniques
@@ -140,7 +123,24 @@ An overview of the history and vision behind DMLR, including links to previous k
     A timeline of inflection points in the development of data-centric ideas. See the editorial <a href="https://arxiv.org/abs/2311.13028">DMLR: Data-centric Machine Learning Research -- Past, Present and Future</a> for more details.
 </div>
 
-**Modality: hybrid**
+In addition, the DMLR workshop at ICLR 2024 encourages submissions around this year's theme on AI for Science.
+
+**ICLR 2024 Theme - AI for Science:** Unlike general AI, AI for Science uses AI to tackle unique scientific challenges, uncover rare
+phenomena, deepen our understanding of scientific domains, and accelerate discoveries. The traditional model-
+centric AI approach primarily focuses on algorithmic improvements and often overlooks the foundational role of
+data. This is particularly problematic in scientific contexts where there are strong emphases on both prediction
+from and explanation of data. In large science projects and missions that produce vast amounts of data (e.g., at CERN, NASA), efficient data-centric AI frameworks are essential for maximizing the potential of expensive experiments and missions. In contrast, biomedical research surfaces different data-centric AI issues surrounding sparsity (e.g., to understand OOD cases, estimate causal effects), privacy, and fairness. The significance of a data-centric AI framework in science is manifold:
+* Scientific research is inherently data-driven.
+* The integrity of AI systems is intrinsically tied to the quality of their training data. The high stakes in science leave no room for errors due to poor data. For scientists to trust AI systems, data quality, including precise labeling and comprehensive coverage, is vital.
+* The vastness of scientific data demands robust data management for consistent future model evaluations.
+* Ethical considerations, such as data privacy, biases, and diverse representation, are central to scientific re-
+search.
+* Science domain experts provide insights that models alone cannot, ensuring data aligns with scientific objec-
+tives and bolsters research reliability.
+* There is a need for strong norms around rigorous, data-driven machine learning akin to those surrounding
+mathematical and statistical modeling.
+
+### Logistics
 
 **Session organization: virtual + in-person engagement**
 
