@@ -26,7 +26,7 @@ All authors and submissions should adhere to the [ICLR policy](https://www.iclr.
 ### Important Dates
 
 (Time zone: Anywhere on Earth) 
-* Paper Submission deadline: 03 February 2024
+* Paper Submission deadline: ~~03 February 2024~~ 08 February 2024
 * Notification of Acceptance: 03 March 2024
 * Camera Ready Copy due: Coming Soon
 * Workshop: 11 May 2024
