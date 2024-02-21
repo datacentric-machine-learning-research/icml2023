@@ -2,7 +2,7 @@
 layout: contributor
 name: Johannes Jakubik
 img: /assets/img/Johannes_Jakubik.jpg
-affiliation: "Karlsruhe Institute of Technology (KIT) (next: IBM Research Zurich)"
+affiliation: Karlsruhe Institute of Technology
 minibio: Research Associate
 mail: johannes.jakubik@kit.edu
 website: https://dsi.iism.kit.edu/team_jakubik.php

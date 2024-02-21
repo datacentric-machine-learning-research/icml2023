@@ -2,7 +2,7 @@
 layout: contributor
 name: Baharan Mirzasoleiman
 img: /assets/img/baharan.jpg
-affiliation: Computer Science Department at UCLA
+affiliation: CS at UCLA
 minibio:  Assistant Professor
 mail: baharan@cs.ucla.edu
 website: 

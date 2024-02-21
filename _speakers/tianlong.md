@@ -2,7 +2,7 @@
 layout: contributor
 name: Tianlong Chen
 img: /assets/img/tianlong_chen.jpg
-affiliation: CSAIL@MIT
+affiliation: MIT
 minibio: Research Scientist
 mail: tianlong@mit.edu
 website: https://tianlong-chen.github.io

@@ -2,7 +2,7 @@
 layout: contributor
 name: Sujit Roy
 img: /assets/img/sujit_roy.png
-affiliation: NASA MSFC IMPACT & University of Alabama in Huntsville
+affiliation: NASA & University of Alabama
 minibio:  Computer Scientist Level VI
 mail: sujit.roy@uah.edu
 website: 

@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Chelsea Finn
-img: /assets/img/chelsea.jpg
+img: /assets/img/chelsea_crop.jpg
 affiliation: Stanford University
 minibio: Assistant Professor
 mail: cbfinn@cs.stanford.edu

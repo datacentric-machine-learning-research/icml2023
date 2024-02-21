@@ -2,7 +2,7 @@
 layout: contributor
 name: Anna Khoreva
 img: /assets/img/Khoreva_Anna.jpeg
-affiliation: Bosch Center for Artificial Intelligence (BCAI)
+affiliation: Bosch Center for Artificial Intelligence
 minibio: Senior Research Manager
 mail: anna.khoreva@de.bosch.com
 website: 
