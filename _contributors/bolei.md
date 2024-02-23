@@ -2,7 +2,7 @@
 layout: contributor
 name: Bolei Ma
 img: /assets/img/bolei.png 
-affiliation: LMU Munich / Munich Center for Machine Learning
+affiliation: LMU Munich
 minibio: PhD Student
 mail: bolei.ma@lmu.de
 website: https://boleima.github.io/
