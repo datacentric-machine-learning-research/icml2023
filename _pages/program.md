@@ -17,7 +17,7 @@ nav-order: 2
 | 11:00 |   12:00 |    Panel 1: *Data 2024: What are the important research questions for the DMLR community in light of foundation models?* | :white_check_mark: | :white_check_mark:  |
 | 12:00 |   1:00 |    Lunch Break | :white_check_mark: |  |
 | 1:00 |   1:45 |    Keynote 2: **Baharan Mirzasoleiman** (UCLA) - *Efficient Pre-training on Massive Datasets: A Data Perspective*| :white_check_mark: | :white_check_mark: |
-| 1:45 |   2:20 |    Invited Talk 1: **Chelsea Finn** (Stanford U) || :white_check_mark: |
+| 1:45 |   2:20 |    Invited Talk 1: **Chelsea Finn** (Stanford U) | - *Rethinking Supervision for Machine Learning Models*| :white_check_mark: |
 | 2:20 |   2:45 |    Coffee break / networking break| :white_check_mark: |  |
 | 2:45 |   3:15 |    Announcements  | :white_check_mark: |  |
 |  |   |    &nbsp; - DataPerf & Dynabench| |  |
