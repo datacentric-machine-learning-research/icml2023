@@ -16,6 +16,7 @@ DMLR is made possible by an exceptional reviewers who volunteer their time and e
 | Lilith | Bat-Leah | Mod Op | 
 | Ian | Beaver | Verint Systems Inc | :white_check_mark:
 | Jacob | Beck | Ludwig-Maximilians-Universität München | 
+| Maximilian | Böther  | ETH Zurich | 
 | Danilo | Brajovic | Fraunhofer IPA | 
 | Sofia | Casarin | Free University of Bozen | 
 | Andre V | Carreiro | Fraunhofer AICOS |
@@ -47,13 +48,14 @@ DMLR is made possible by an exceptional reviewers who volunteer their time and e
 | Punit Singh | Koura | Meta AI |
 | Oliver Urs | Lenz | Leiden University |
 | Jianxiong | Li | Tsinghua University |
-| Lin | Li | King's College London |
+| Lin | Li | King’s College London |
 | Xinhui | Li | Georgia Institute of Technology |
 | Ziniu | Li | Chinese University of Hong Kong |
 | Jinyi | Liu | Tianjin University |
 | Yixin | Liu | Monash University |
 | Charles | Lu | Massachusetts Institute of Technology |
 | Ziqian | Luo | Oracle |
+| Vasilis | Mageirakos | ETH Zurich |
 | Salsabila | Mahdi | New York University |
 | Zaid | Nabulsi | Google |
 | Thao | Nguyen | University of Washington |
@@ -83,7 +85,7 @@ DMLR is made possible by an exceptional reviewers who volunteer their time and e
 | Yue | Xing | Michigan State University |
 | Xinyi | Xu | National University of Singapore |
 | Yihao | Xue | University of California, Los Angeles |
-| Shin'ya | Yamaguchi | Kyoto University |
+| Shin’ya | Yamaguchi | Kyoto University |
 | Xinyu | Yang | Cornell University |
 | Yu | Yang | University of California, Los Angeles |
 | Gregory | Yauney | Cornell University |
