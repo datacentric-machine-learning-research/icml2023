@@ -2,10 +2,10 @@
 layout: contributor
 name: Johannes Jakubik
 img: /assets/img/Johannes_Jakubik.jpg
-affiliation: Karlsruhe Institute of Technology
-minibio: Research Associate
+affiliation: IBM Research Europe
+minibio: Postdoctoral Researcher
 mail: johannes.jakubik@kit.edu
-website: https://dsi.iism.kit.edu/team_jakubik.php
+website: https://www.johannesjakubik.com/
 twitter: 
 importance: 1
 ---
