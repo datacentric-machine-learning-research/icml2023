@@ -6,8 +6,6 @@ nav: false
 nav-order: 0
 ---
 
-# Call for Papers
-
 * 26-27 July 2024 – Vienna, Austria
 * Theme: Datasets for foundation models**
 
@@ -69,11 +67,9 @@ Accepted research papers will be presented at the workshop as a poster. Accepted
 
 (Time zone: Anywhere on Earth)
 
-**Paper Submission deadline:** May 24, 2024
-
-**Notification of Acceptance: **June 17, 2024
-
-**Camera Ready Copy due: **Coming Soon
+* Paper Submission deadline: May 24, 2024
+* Notification of Acceptance: June 17, 2024
+* Camera Ready Copy due: Coming Soon
 
 
 ## Awards
