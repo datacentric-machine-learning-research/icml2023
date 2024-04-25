@@ -5,7 +5,7 @@
 title: DMLR # the website title (if blank, full name will be used instead)
 first_name: DMLR
 middle_name:
-last_name: #"@ICLR'24"
+last_name: #": Data-centric Machine Learning Research"
 email: # contact@dmlr.org
 description: Data-centric Machine Learning Research (DMLR) Workshop at ICLR 2024 # the ">" symbol means to ignore newlines until "footer_text:"
 # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
