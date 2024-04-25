@@ -13,7 +13,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-{% include visual.html %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/time.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    A timeline of inflection points in the development of data-centric ideas. See the editorial <a href="https://arxiv.org/abs/2311.13028">DMLR: Data-centric Machine Learning Research -- Past, Present and Future</a> for more details.
+</div>
+<br>
 
 # Speakers
 <div class="projects grid">
@@ -113,16 +121,6 @@ This is the fourth edition of highly successful workshops focused on data-centri
 If you are looking for examples of works previously presented at DMLR, you can find a list of papers [here](https://dmlr.ai/23/accepted/).
 
 An overview of the history and vision behind DMLR, including links to previous keynotes, you can find in our editorial [DMLR: Data-centric Machine Learning Research -- Past, Present and Future](https://arxiv.org/abs/2311.13028).
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/time.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    A timeline of inflection points in the development of data-centric ideas. See the editorial <a href="https://arxiv.org/abs/2311.13028">DMLR: Data-centric Machine Learning Research -- Past, Present and Future</a> for more details.
-</div>
-<br>
 
 **AI for Science:** In addition, the DMLR workshop at ICLR 2024 encourages submissions around this year's theme on AI for Science. Unlike general AI, AI for Science uses AI to tackle unique scientific challenges, uncover rare
 phenomena, deepen our understanding of scientific domains, and accelerate discoveries. Data-centric topics include but are not limited to:
