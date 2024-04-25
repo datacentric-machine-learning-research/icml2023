@@ -13,6 +13,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
+# Upcoming workshops
+
+* ICLR 2024
+   * Program: https://dmlr.ai/program/
+* ICML 2024
+   * Call for papers
+   * Submission portal is open here: https://openreview.net/group?id=ICML.cc/2024/Workshop/DMLR
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/time.png" class="img-fluid rounded z-depth-1" zoomable=true %}
