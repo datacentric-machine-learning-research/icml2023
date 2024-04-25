@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Data-centric Machine Learning Research (DMLR) Workshop at ICLR 2024 (May 11 in Vienna, Austria)
+description: Data-centric Machine Learning Research (DMLR)
 
 profile:
   align: #right
