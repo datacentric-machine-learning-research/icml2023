@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Data-centric Machine Learning Research (DMLR)
+description:
 
 profile:
   align: #right

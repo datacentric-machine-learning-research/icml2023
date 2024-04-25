@@ -7,7 +7,7 @@ first_name: DMLR
 middle_name:
 last_name: Data-centric Machine Learning Research
 email: # contact@dmlr.org
-description: Data-centric Machine Learning Research (DMLR) Workshop at ICLR 2024 # the ">" symbol means to ignore newlines until "footer_text:"
+description: # Data-centric Machine Learning Research (DMLR) Workshop at ICLR 2024 # the ">" symbol means to ignore newlines until "footer_text:"
 # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Thanks to <a href="https://github.com/alshedivat/al-folio">Maruan</a> for the neat theme base
