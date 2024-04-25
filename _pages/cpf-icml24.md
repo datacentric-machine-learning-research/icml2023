@@ -6,24 +6,10 @@ nav: false
 nav-order: 0
 ---
 
-## **DMLR Workshop: Data-Centric Machine Learning Research **
+# Call for Papers
 
-
-## **at ICML 2024**
-
- 
-
- 
-
-
-# **2024 - Call for Papers**
-
-
-# **26-27 July 2024 – Vienna, Austria**
-
-**Theme: Datasets for foundation models**
-
-**[DMLR Workshop ’24 Website](https://dmlr.ai/)**
+* 26-27 July 2024 – Vienna, Austria
+* Theme: Datasets for foundation models**
 
  
 
@@ -31,16 +17,13 @@ We invite paper submissions to the 5<sup>th</sup> workshop on Data-Centric Machi
 
 ​​This workshop builds on the success of prior data-centric workshops and brings together the DMLR, DataComp, and AI for Good communities. Our goal is to explore the critical role of datasets in shaping the future of foundation models and advance research in this area.
 
-**Scope**
+## Scope
 
 Large-scale foundation models are revolutionizing machine learning, particularly in vision and language domains. While model architecture received significant attention in the past, recent focus has shifted towards the importance of data quality, size, and diversity, and provenance.  
 
 This workshop aims to highlight cutting-edge advancements in data-centric approaches for large-scale foundation models in new domains, in addition to language and vision, and engage the vibrant interdisciplinary community of researchers, practitioners, and engineers who tackle practical data challenges related to foundation models. By featuring innovative research and facilitating collaboration, it aims to bridge the gap between dataset-centric methodologies and the development of robust, versatile foundation models that are able to work in and across a variety of domains in service of humanity.
 
-**Topics will include, but are not limited to:**
-
-
-
+## Topics will include, but are not limited to
 * Data sources for large-scale datasets: 
 * Construction of datasets from large quantities of unlabeled/uncurated data 
 * Model-assisted dataset construction
@@ -54,10 +37,9 @@ This workshop aims to highlight cutting-edge advancements in data-centric approa
 
  
 
-**Submission \
-**
+## Submission
 
-**All authors and submissions should adhere to the[ ICML policy](https://icml.cc/Conferences/2024/AuthorInstructions)**. \
+**All authors and submissions should adhere to the[ ICML policy](https://icml.cc/Conferences/2024/AuthorInstructions)**.
 
 
 
@@ -83,7 +65,7 @@ Accepted research papers will be presented at the workshop as a poster. Accepted
 
  
 
-**Important Dates** 
+## Important Dates
 
 (Time zone: Anywhere on Earth)
 
@@ -94,16 +76,15 @@ Accepted research papers will be presented at the workshop as a poster. Accepted
 **Camera Ready Copy due: **Coming Soon
 
 
-## **Awards**
+## Awards
 
 A few selected exceptional research papers from DMLR workshop 2024 will be invited to contribute to the **DMLR journal**; the latest member of the JMLR family, aiming to provide a top archival venue for high-quality scholarly articles focused on the data aspect of machine learning research. The top submissions to the DMLR workshops will be invited to submit extended versions of their papers to the DMLR journal.
 
-**Workshop Organizers**
+## Workshop Organizers
+
+Adam Mahdi, Ludwig Schmidt, Alex Dimakis, Rotem Dror, Georgia Gkioxari, Sang T. Truong, Lilith Bat-Leah, Fatimah Alzamzami, Georgios Smyrnis, Thao Nguyen, Nezihe Merve Gürel, Paolo Climaco, Luis Oala, Hailey Schoelkopf, Andrew Michael Bean, Berivan Isik, Vaishaal Shankar, Mayee F Chen, Achal Dave
 
 
-### Adam Mahdi, Ludwig Schmidt, Alex Dimakis, Rotem Dror, Georgia Gkioxari, Sang T. Truong, Lilith Bat-Leah, Fatimah Alzamzami, Georgios Smyrnis, Thao Nguyen, Nezihe Merve Gürel, Paolo Climaco, Luis Oala, Hailey Schoelkopf, Andrew Michael Bean, Berivan Isik, Vaishaal Shankar, Mayee F Chen, Achal Dave
-
-
-## **Contact**
+## Contact
 
 If you have any questions about paper submission and the workshop, please join our Discord channel here: [https://discord.gg/jYk3FNfYqG](https://discord.gg/jYk3FNfYqG)
