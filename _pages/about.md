@@ -19,8 +19,8 @@ social: false  # includes social icons at the bottom of the page
 * [Program](https://dmlr.ai/program/)
 
 ### ICML 2024
-* Call for papers: [https://dmlr.ai/cfp-icml24/](https://dmlr.ai/cfp-icml24/)
-* Submission portal: [https://openreview.net/group?id=ICML.cc/2024/Workshop/DMLR](https://openreview.net/group?id=ICML.cc/2024/Workshop/DMLR)
+* [Call for papers](https://dmlr.ai/cfp-icml24/)
+* [Submission portal](https://openreview.net/group?id=ICML.cc/2024/Workshop/DMLR)
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -28,7 +28,7 @@ social: false  # includes social icons at the bottom of the page
     </div>
 </div>
 <div class="caption">
-    A timeline of inflection points in the development of data-centric ideas. See the editorial <a href="https://arxiv.org/abs/2311.13028">DMLR: Data-centric Machine Learning Research -- Past, Present and Future</a> for more details.
+    A timeline of inflection points in the development of data-centric ideas. See the editorial <a href="https://openreview.net/forum?id=2kpu78QdeE">DMLR: Data-centric Machine Learning Research -- Past, Present and Future</a> for more details.
 </div>
 <br>
 
@@ -170,7 +170,7 @@ DMLR is an open, distributed community organizing activities to discuss and adva
 
 We organize [workshops and research retreats](https://dmlr.ai/), maintain [a journal](https://data.mlr.press/), and run a [working group at Machine Learning Commons (MLC)](https://mlcommons.org/working-groups/research/dmlr/) to support infrastructure projects.
 
-You can find more details about the scope and history of our activities in the editorial [Data-centric Machine Learning Research -- Past, Present and Future](https://arxiv.org/abs/2311.13028).
+You can find more details about the scope and history of our activities in the editorial [Data-centric Machine Learning Research -- Past, Present and Future](https://openreview.net/forum?id=2kpu78QdeE).
 
 
 
