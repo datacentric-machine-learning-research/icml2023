@@ -13,8 +13,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-# Upcoming workshops
-
 ### ICLR 2024
 * [Program](https://dmlr.ai/program/)
 
@@ -129,7 +127,7 @@ This is the fourth edition of highly successful workshops focused on data-centri
 
 If you are looking for examples of works previously presented at DMLR, you can find a list of papers [here](https://dmlr.ai/23/accepted/).
 
-An overview of the history and vision behind DMLR, including links to previous keynotes, you can find in our editorial [DMLR: Data-centric Machine Learning Research -- Past, Present and Future](https://arxiv.org/abs/2311.13028).
+An overview of the history and vision behind DMLR, including links to previous keynotes, you can find in our editorial [DMLR: Data-centric Machine Learning Research -- Past, Present and Future](https://openreview.net/forum?id=2kpu78QdeE).
 
 **AI for Science:** In addition, the DMLR workshop at ICLR 2024 encourages submissions around this year's theme on AI for Science. Unlike general AI, AI for Science uses AI to tackle unique scientific challenges, uncover rare
 phenomena, deepen our understanding of scientific domains, and accelerate discoveries. Data-centric topics include but are not limited to:
