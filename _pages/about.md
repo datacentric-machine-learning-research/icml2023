@@ -15,10 +15,10 @@ social: false  # includes social icons at the bottom of the page
 
 # Upcoming workshops
 
-## ICLR 2024
+### ICLR 2024
 * [Program](https://dmlr.ai/program/)
 
-## ICML 2024
+### ICML 2024
 * Call for papers: [https://dmlr.ai/cfp-icml24/](https://dmlr.ai/cfp-icml24/)
 * Submission portal: [https://openreview.net/group?id=ICML.cc/2024/Workshop/DMLR](https://openreview.net/group?id=ICML.cc/2024/Workshop/DMLR)
 
