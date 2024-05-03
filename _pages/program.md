@@ -17,8 +17,6 @@ nav-order: 2
 | 11:00 | 11:45 |    Panel 1: *Data 2024: What are the important research questions for the DMLR community in light of foundation models?* | :white_check_mark: | :white_check_mark:  |
 |  |   |   Panel speakers: **Johannes Jakubik, David Kocharian, Sujit Roy, Elena Simperl**| |  |
 |  |   |    Moderator: **Lilith Bat-Leah** | |  |
-
-
 | 11:45 |   12:45 |    Poster session | :white_check_mark: | |
 | 12:45 |   1:45 |    Lunch Break | :white_check_mark: |  |
 | 1:45 |   2:20 |    Announcements  | :white_check_mark: |  |
