@@ -3,7 +3,7 @@ layout: page
 title: Reviewers
 permalink: /reviewers/
 nav: true
-nav-order: 3
+nav-order: 6
 ---
 
 DMLR is made possible by an exceptional reviewers who volunteer their time and expertise to review submissions.

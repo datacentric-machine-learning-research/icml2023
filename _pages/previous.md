@@ -4,7 +4,7 @@ title: Previous Workshops
 permalink: /previous/
 nav: true
 dropdown: true
-nav-order: 4
+nav-order: 7
 ---
 
 ### DMLR@ICML 2023
