@@ -12,7 +12,7 @@ nav-order: 2
 |:---  |:---  |:---|:---:|:---:|
 | 09:00 |   09:15 |    Introduction and Opening| :white_check_mark: | :white_check_mark: |
 | 09:15 |   10:00 |    Keynote 1: **James Zou** (Stanford U) - *Data scaling laws and data attribution for generative AI* |:white_check_mark:| :white_check_mark: |
-| 10:00 |   10:35 |    Invited Talk 1: **Abdulmotaleb El Saddik** (U Ottawa) | :white_check_mark: | :white_check_mark: |
+| 10:00 |   10:35 |    Invited Talk 1: **Thomas Basikolo** (International Telecommunication Union) | :white_check_mark: | :white_check_mark: |
 | 10:35 |   11:00 |    Coffee break / networking break| :white_check_mark: |  |
 | 11:00 | 11:45 |    Panel 1: *Data 2024: What are the important research questions for the DMLR community in light of foundation models?* | :white_check_mark: | :white_check_mark:  |
 |  |   |   Panel speakers: **Johannes Jakubik, David Kocharian, Sujit Roy, Elena Simperl**| |  |
