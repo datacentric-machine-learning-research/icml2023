@@ -1,21 +1,8 @@
----
-layout: about
-title: about
-permalink: /
-description:
-
-profile:
-  align: #right
-  image: #prof_pic.jpg
-
-news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
----
+### ICLR 2024
+* [Program](https://dmlr.ai/program/)
 
 ### ICML 2024
 * [Call for papers](https://dmlr.ai/cfp-icml24/)
-* [Program](https://dmlr.ai/program/)
 * [Submission portal](https://openreview.net/group?id=ICML.cc/2024/Workshop/DMLR)
 
 <div class="row mt-3">
@@ -28,7 +15,6 @@ social: false  # includes social icons at the bottom of the page
 </div>
 <br>
 
-<!--
 # Speakers
 <div class="projects grid">
 
@@ -106,48 +92,48 @@ social: false  # includes social icons at the bottom of the page
 {% endfor %}
 
 </div>
--->
+
 <br>
 
 ### Topics and Theme
 
-This is the fifth edition of highly successful workshops focused on data-centric AI, following the success of the Data-Centric AI workshop at NeurIPS 2021, ICML 2022, ICML 2023, and ICLR 2024.
+This is the fourth edition of highly successful workshops focused on data-centric AI, following the success of the Data-Centric AI workshop at NeurIPS 2021, ICML 2022, and ICML 2023.
 
-#### Theme
+**Topics will include, but are not limited to:**
+* Data collection and benchmarking techniques
+* Data governance frameworks for ML
+* Impact of data bias, variance, and drifts
+*	Role of data in foundation models: pre-training, prompting, fine-tuning
+*	Optimal data for standard evaluation framework in the context of changing model landscape
+*	Domain specific data issues
+*	Data-centric explainable AI
+* Data-centric approaches to AI alignment
+* Active learning, Data cleaning, acquisition for ML
 
-Large-scale foundation models are revolutionizing machine learning, particularly in vision and language domains. While model architecture received significant attention in the past, recent focus has shifted towards the importance of data quality, size, and diversity, and provenance.  
-
-This workshop aims to highlight cutting-edge advancements in data-centric approaches for large-scale foundation models in new domains, in addition to language and vision, and engage the vibrant interdisciplinary community of researchers, practitioners, and engineers who tackle practical data challenges related to foundation models. By featuring innovative research and facilitating collaboration, it aims to bridge the gap between dataset-centric methodologies and the development of robust, versatile foundation models that are able to work in and across a variety of domains in service of humanity.
-
-#### Topics will include, but are not limited to
-* Data sources for large-scale datasets: 
-* Construction of datasets from large quantities of unlabeled/uncurated data 
-* Model-assisted dataset construction
-* Quality signals for large-scale datasets
-* Datasets for evaluation
-* Datasets for specific applications. 
-* Impact of dataset drifts in large-scale models
-* Ethical considerations for and governance of large-scale datasets 
-* Data curation and HCI
-* Submissions to benchmarks such as [DataPerf](https://www.dataperf.org/), [DynaBench](https://dynabench.org/), and [DataComp](https://www.datacomp.ai/)
-
-If you are looking for examples of works previously presented at DMLR, you can find a list of papers [here](https://dmlr.ai/iclr24/accepted/).
+If you are looking for examples of works previously presented at DMLR, you can find a list of papers [here](https://dmlr.ai/23/accepted/).
 
 An overview of the history and vision behind DMLR, including links to previous keynotes, you can find in our editorial [DMLR: Data-centric Machine Learning Research -- Past, Present and Future](https://openreview.net/forum?id=2kpu78QdeE).
 
-### Awards
+**AI for Science:** In addition, the DMLR workshop at ICLR 2024 encourages submissions around this year's theme on AI for Science. Unlike general AI, AI for Science uses AI to tackle unique scientific challenges, uncover rare
+phenomena, deepen our understanding of scientific domains, and accelerate discoveries. Data-centric topics include but are not limited to:
 
-A few selected exceptional research papers from DMLR workshop 2024 will be invited to contribute to the **DMLR journal**; the latest member of the JMLR family, aiming to provide a top archival venue for high-quality scholarly articles focused on the data aspect of machine learning research. The top submissions to the DMLR workshops will be invited to submit extended versions of their papers to the DMLR journal.
+* Scientific research as inherently data-driven.
+* AI system integrity depending on high-quality training data, crucial in high-stakes science.
+* Essential robust data management for vast scientific data, as seen in projects at CERN and NASA.
+* Ethical considerations such as data privacy, biases, and diverse representation in scientific research.
+* The role of science domain experts in ensuring data aligns with scientific objectives, vital for research reliability.
+* The need for rigorous, data-driven machine learning standards, akin to those in mathematical and statistical modeling.
+
+In [collaboration with the United Nations AI for Good program](https://aiforgood.itu.int/about-ai-for-good/discovery/#Datacentric) we now offer top submissions the opportunity to give a spotlight talk at the [AI for Good Discovery Track](https://aiforgood.itu.int/about-ai-for-good/discovery/). Authors can select the option to be considered for a spotlight presentation during the submission process.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/dmlrforgood.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<br>
 
 ### Logistics
-
-**Important Dates**
-
-(Time zone: Anywhere on Earth)
-
-* Paper Submission deadline: May 24, 2024
-* Notification of Acceptance: June 17, 2024
-* Camera Ready Copy due: Coming Soon
 
 **Session organization: virtual + in-person engagement**
 
@@ -160,7 +146,6 @@ The workshop will be organized in four components:
 * Open panel discussions
 * Poster sessions
 * Networking sessions
-
 
 # About DMLR
 

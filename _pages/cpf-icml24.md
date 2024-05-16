@@ -2,7 +2,7 @@
 layout: page
 title: CfP ICML 2024
 permalink: /cfp-icml24/
-nav: false
+nav: true
 nav-order: 0
 ---
 

@@ -1,12 +1,10 @@
 ---
 layout: page
 title: Submit
-permalink: /cfp/
+permalink: /iclr24/cfp/
 nav: false
 nav-order: 0
 ---
-
-**ICLR 2024**
 
 All authors and submissions should adhere to the [ICLR policy](https://www.iclr.cc/Conferences/2024/AuthorGuide).
 

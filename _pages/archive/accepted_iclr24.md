@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Accepted Papers
-permalink: /accepted/
+permalink: /iclr24/accepted/
 nav: false
 nav-order: 3
 ---
