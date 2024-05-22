@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Achal Dave
-img: /assets/img/achal.jpeg 
+img: /assets/img/achal.jpg 
 affiliation: Toyota Research Institute
 minibio: Research Scientist
 mail: achal.dave@tri.global

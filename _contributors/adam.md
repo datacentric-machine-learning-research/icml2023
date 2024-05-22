@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Adam Mahdi
-img:  /assets/img/adam.jpeg 
+img:  /assets/img/adam.jpg 
 affiliation: University of Oxford
 minibio: Director of Graduate Studies, Lecturer
 mail: adam.mahdi@oii.ox.ac.uk

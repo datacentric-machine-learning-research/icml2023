@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Ludwig Schmidt
-img:  /assets/img/ludwig.jpeg 
+img:  /assets/img/ludwig.jpg 
 affiliation: University of Washington, Allen Institute for AI
 minibio: Assistant Professor
 mail: chmidt@cs.washington.edu

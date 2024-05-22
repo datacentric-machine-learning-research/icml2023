@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Andrew Bean
-img:
+img: /assets/img/andrew.jpg
 affiliation: University of Oxford
 minibio: PhD Student
 mail: andrew.bean@oii.ox.ac.uk

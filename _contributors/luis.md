@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Luis Oala
-img: /assets/img/luis.jpeg 
+img: /assets/img/luis.jpg 
 affiliation: Dotphoton
 minibio: Head of Machine Learning 
 mail: luis.oala@dotphoton.com

@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Georgios (George) Smyrnis
-img: /assets/img/georgios.jpeg 
+img: /assets/img/georgios.jpg 
 affiliation: UT Austin
 minibio: PhD student
 mail: gsmyrnis@utexas.edu

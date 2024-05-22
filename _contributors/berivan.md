@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Berivan Isik
-img: 
+img: /assets/img/berivan.jpeg
 affiliation: Stanford University
 minibio: PhD student
 mail: berivan.isik@stanford.edu

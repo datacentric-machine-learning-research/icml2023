@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Georgia Gkiozari
-img:  
+img:  /assets/img/georgia.jpg
 affiliation: Caltech
 minibio: Assistant Professor
 mail: georgia.gkioxari@gmail.com

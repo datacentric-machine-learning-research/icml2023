@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Thao Nguyen
-img: /assets/img/thao.jpeg 
+img: /assets/img/thao.jpg 
 affiliation: University of Washington
 minibio: PhD student
 mail: thaottn@cs.washington.edu
