@@ -9,7 +9,7 @@ nav-order: 5
 
 <div class="projects grid">
 
-  {% assign sorted_contributors = site.contributors | where_exp:"item","item.events contains 'icml24'"| sample:100 %}
+  {% assign sorted_contributors = site.contributors | where_exp:"contributor","contributor.events contains 'icml24'"| sample:100 %}
   {% for contributor in sorted_contributors %}
     <div class="grid-item">
       {% if contributor.redirect %}
