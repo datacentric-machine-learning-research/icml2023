@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Hailey Schoelkopf
-img:
+img: /assets/img/hailey.jpeg 
 affiliation: ElutherAI
 minibio: Research Scientist
 mail: hailey@eluther.ai

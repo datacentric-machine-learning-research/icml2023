@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Alexandros Dimakis
-img:  
+img:  /assets/img/alexandros.jpeg 
 affiliation: UT Austin, National AI Institute on the Foundations of Machine Learning
 minibio: Professor
 mail: dimakis@austin.utexas.edu

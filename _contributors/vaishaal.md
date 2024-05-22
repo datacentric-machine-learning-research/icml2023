@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Vaishaal Shankar
-img: 
+img: /assets/img/vaishaal.jpeg 
 affiliation: Apple
 minibio: Research Scientist
 mail: vs@vaishall.com

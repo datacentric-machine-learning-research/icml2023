@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Nezihe Merve Gürel
-img: 
+img: /assets/img/merve.jpeg 
 affiliation: TU Delft
 minibio: Assistant Professor 
 mail: n.m.gurel@tudelft.nl

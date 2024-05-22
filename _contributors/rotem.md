@@ -1,7 +1,7 @@
 ---
 layout: contributor
 name: Rotem Dror
-img:  
+img:  /assets/img/rotem.jpeg 
 affiliation: Haifa University
 minibio: Assistant Professor
 mail: dror@is.haifa.ac.il
