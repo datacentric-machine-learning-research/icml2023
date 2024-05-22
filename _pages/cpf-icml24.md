@@ -66,7 +66,7 @@ Accepted research papers will be presented at the workshop as a poster. Accepted
 
 (Time zone: Anywhere on Earth)
 
-* Paper Submission deadline: May 24, 2024
+* Paper Submission deadline: ~~May 24, 2024~~ May 30, 2024 
 * Notification of Acceptance: June 17, 2024
 * Camera Ready Copy due: Coming Soon
 

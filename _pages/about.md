@@ -145,7 +145,7 @@ A few selected exceptional research papers from DMLR workshop 2024 will be invit
 
 (Time zone: Anywhere on Earth)
 
-* Paper Submission deadline: May 24, 2024
+* Paper Submission deadline: ~~May 24, 2024~~ May 30, 2024
 * Notification of Acceptance: June 17, 2024
 * Camera Ready Copy due: Coming Soon
 
