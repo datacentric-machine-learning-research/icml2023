@@ -9,9 +9,8 @@ nav-order: 5
 
 <div class="projects grid">
 
-  {% assign sorted_contributors = site.contributors | sample:100 %}
+  {% assign sorted_contributors = site.contributors | where_exp:"item","item.events contains 'icml24'"| sample:100 %}
   {% for contributor in sorted_contributors %}
-  {% if contributor.events contains "icml24" %}
     <div class="grid-item">
       {% if contributor.redirect %}
       <a href="{{ contributor.redirect }}" target="_blank">
@@ -81,7 +80,6 @@ nav-order: 5
         </div>
       </a>
     </div>
-  {% endif %}
   {% endfor %}
 
 </div>
