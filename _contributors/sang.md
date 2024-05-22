@@ -7,6 +7,7 @@ minibio: PhD Student
 mail: sttruong@cs.stanford.edu 
 website: https://ai.stanford.edu/~sttruong 
 twitter: 
+events: 
 googlescholar: https://scholar.google.com/citations?user=oXPm0dAAAAAJ&hl=en 
 importance: 1
 ---

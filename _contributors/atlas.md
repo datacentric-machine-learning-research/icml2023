@@ -7,6 +7,7 @@ minibio: Tenured Associate Professor
 mail: atlaswang@utexas.edu
 website: https://vita-group.github.io/
 twitter: 
+events: 
 googlescholar: https://scholar.google.com/citations?user=pxFyKAIAAAAJ&hl=en
 importance: 1
 ---

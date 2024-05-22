@@ -8,5 +8,6 @@ mail: lbatleah@gmail.com
 website: https://dprism.com/about/lilith-bat-leah/
 twitter: 
 googlescholar: https://www.jdsupra.com/authors/lilith-bat-leah/
+events: iclr24, icml24
 importance: 1
 ---

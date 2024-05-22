@@ -7,6 +7,7 @@ minibio: Senior Imaging Technology Scientist
 mail: steffen.vogler@bayer.com
 website: https://www.vogler.io
 twitter: 
+events: 
 googlescholar: https://scholar.google.de/citations?user=s6CqZi8AAAAJ&hl=en
 importance: 1
 ---

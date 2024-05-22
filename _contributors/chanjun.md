@@ -7,6 +7,7 @@ minibio: Technical Leader
 mail: bcj1210@naver.com
 website: https://github.com/parkchanjun
 twitter: 
+events: 
 googlescholar: https://scholar.google.com/citations?user=085jNAMAAAAJ&hl=en
 importance: 1
 ---
