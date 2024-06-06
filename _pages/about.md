@@ -18,8 +18,6 @@ social: false  # includes social icons at the bottom of the page
 * [Program](https://dmlr.ai/program/)
 * [Submission portal](https://openreview.net/group?id=ICML.cc/2024/Workshop/DMLR)
 
-### Pending acceptance at NeurIPS 2024
-
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
