@@ -28,7 +28,7 @@ social: false  # includes social icons at the bottom of the page
 </div>
 <br>
 
-<!--
+
 # Speakers
 <div class="projects grid">
 
@@ -106,7 +106,6 @@ social: false  # includes social icons at the bottom of the page
 {% endfor %}
 
 </div>
--->
 <br>
 
 ### Topics and Theme
