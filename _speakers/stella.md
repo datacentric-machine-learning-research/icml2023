@@ -3,7 +3,7 @@ layout: contributor
 name: Stella Biderman
 img: /assets/img/stella.jpg
 affiliation: EleutherAI
-minibio: Researcher
+minibio: Executive Director
 mail: 
 website: https://www.stellabiderman.com/home
 twitter: 
