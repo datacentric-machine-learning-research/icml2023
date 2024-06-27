@@ -68,7 +68,7 @@ Accepted research papers will be presented at the workshop as a poster. Accepted
 
 * Paper Submission deadline: ~~May 24, 2024~~ May 30, 2024 
 * Notification of Acceptance: June 17, 2024
-* Camera Ready Copy due: Coming Soon
+* Camera Ready Copy due: July 12, 2024
 
 
 ## Awards
