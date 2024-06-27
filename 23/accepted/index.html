@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>DMLR  Data-centric Machine Learning Research | Accepted Papers DMLR@ICML 2023</title>
+<meta name="description" content="...">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<!-- <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" /> -->
+<link rel="stylesheet" href="https://combinatronics.io/jwarby/pygments-css/master/github.css" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/23/accepted/">
+
+<!-- Theming-->
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://datacentric-machine-learning-research.github.io/icml2023//">
+       <span class="font-weight-bold">DMLR&nbsp;</span>Data-centric Machine Learning Research
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              About
+              
+            </a>
+          </li>
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/cfp-icml24/">
+                CfP ICML 2024
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/program/">
+                Program
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/organizers/">
+                Organizers
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/reviewers/">
+                Reviewers
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/previous/">
+                Previous Workshops
+                
+              </a>
+          </li>
+          
+          
+          
+
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Accepted Papers DMLR@ICML 2023</h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <p>We thank all authors who submitted to DMLR’23. All accepted manuscripts are listed below in random order. Authors who did not opt-in to publish their manuscript on the DMLR site have only the title of their work listed. Congrats to all author teams for being accepted to DMLR’23!</p>
+
+<h2 id="posters-with-manuscript">Posters with manuscript</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>Paper Title</strong></th>
+      <th style="text-align: left"><strong>Authors</strong></th>
+      <th style="text-align: left"><strong>Files</strong></th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><em>Data Integration for Driver Telematics with Selection Biases</em></td>
+      <td style="text-align: left">Hashan Peiris (Simon Fraser University); Himchan Jeong (Simon Fraser University)*; Jae  Kwang Kim (Iowa State University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/2/CameraReady/telematics - extended abstracts.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Accelerating Batch Active Learning Using Continual Learning Techniques</em></td>
+      <td style="text-align: left">Gantavya Bhatt (University of Washington, Seattle)*; Arnav Das (University of Washington); Megh M Bhalerao (University of Washington); Rui Yang (Memorial Sloan Kettering Cancer Center); Vianne R Gao (Weill Medical College); Jeff Bilmes (UW)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/4/CameraReady/CAL_DMLR_ICML.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Taming Small-sample Bias in Low-budget Active Learning</em></td>
+      <td style="text-align: left">Linxin Song (Waseda University)*; Jieyu Zhang (University of Washington); Xiaotian Lu (Kyoto University); Tianyi Zhou (University of Maryland, College Park)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/5/CameraReady/_DMLR_23__Low_budget_active_learning (2).pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Training with Low-Label-Quality Data: Rank Pruning and Multi-Review</em></td>
+      <td style="text-align: left">Yue Xing (Michigan State University)*; Ashutosh Pandey (Meta Platforms); David Yan (Meta Platforms); Fei  Wu (Meta); Michael Fronda (Meta Platforms); Pamela Bhattacharya (Meta Platforms)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/7/CameraReady/Improving_Scammer_Detection__Algorithm_and_Multiple_Reviews (3).pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Training on Thin Air: Improve Image Classification with Generated Data</em></td>
+      <td style="text-align: left">Yongchao Zhou (University of Toronto)*; Hshmat U Sahak (University of Toronto); Jimmy Ba (University of Toronto)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/9/CameraReady/Diffusion_Inversion_DMLR_ICML2023_compressed.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>DMOps: Data Management Operations and Recipes</em></td>
+      <td style="text-align: left">Eujeong Choi (Upstage); Chanjun Park (Upstage)*</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/10/CameraReady/icml2023_DMOps.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Inter-Annotator Agreement in the Wild: Uncovering Its Emerging Roles and Considerations in Real-World Scenarios</em></td>
+      <td style="text-align: left">NamHyeok Kim (Upstage); Chanjun Park (Upstage)*</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/11/CameraReady/icml2023_IAA_Real_World.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Transcending Traditional Boundaries: Leveraging Inter-Annotator Agreement (IAA) for Enhancing Data Management Operations (DMOps)</em></td>
+      <td style="text-align: left">Damrin Kim (Konkuk University); NamHyeok Kim (Upstage); Chanjun Park (Upstage)*; Harksoo Kim (Konkuk University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/12/CameraReady/icml2023_IAA.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining</em></td>
+      <td style="text-align: left">Sang Michael Xie (Stanford University)*; Hieu Pham (Google); Xuanyi Dong (University of Technology Sydney); Nan Du (Google Brain); Hanxiao Liu (Google Brain); Yifeng Lu (Google Brain); Percy Liang (Stanford University); Quoc Le (Google Brain); Tengyu Ma (Stanford); Adams Wei Yu (Google Brain)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/15/CameraReady/ICML_workshop_DoReMi (5) (1).pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>On the Trade-off of Intra-/Inter-class Diversity for Supervised Pre-training</em></td>
+      <td style="text-align: left">Jieyu Zhang (University of Washington)*; Bohan Wang (University of Science and Technology of China); zhengyu hu (NA);  Pang We  Koh (University of Washington); Alexander J Ratner (University of Washington)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/18/CameraReady/_DMLR_23__Diversity_Tradeoff.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Algorithm Selection for Deep Active Learning with Imbalanced Datasets</em></td>
+      <td style="text-align: left">Jifan Zhang (University of Wisconsin)*; Shuai Shao (Meta); Saurabh Verma (Meta); Robert Nowak (University of Wisconsin, Madison)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/19/CameraReady/Adaptive_AL_Algorithm_Selection__DMLR_.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>How to Improve Imitation Learning Performance with Sub-optimal Supplementary Data?</em></td>
+      <td style="text-align: left">Ziniu Li (The Chinese University of Hong Kong, Shenzhen)*; Tian Xu (Nanjing University); Zeyu Qin (HKUST); Yang Yu (Nanjing University); Zhiquan Luo (The Chinese University of Hong Kong, Shenzhen and Shenzhen Research Institute of Big Data)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/22/CameraReady/icml workshop paper.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Synthetic Alone: Exploring the Dark Side of Synthetic Data for Grammatical Error Correction</em></td>
+      <td style="text-align: left">Chanjun Park (Upstage)*; Seonmin Koo (Korea University); Seolhwa Lee (University of Copenhagen); Jaehyung Seo (Korea University); Sugyeong Eo (Korea University); Hyeonseok Moon (Korea University); Heuiseok Lim (Korea University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/30/CameraReady/ICML2023_Synthetic_Alone.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Contrastive clustering of tabular data</em></td>
+      <td style="text-align: left">Piotr Przemielewski (Jagiellonian University)*; Witold Wydmański (Jagiellonian University); Marek Śmieja (Jagiellonian University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/32/CameraReady/Contrastive_clustering___workshop-5.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Detecting Errors in Numerical Data via any Regression Model</em></td>
+      <td style="text-align: left">Hang Zhou (UC Davis); Jonas Mueller (Cleanlab)*; Mayank Kumar (Cleanlab); Jane-Ling Wang (UC Davis); Jing Lei (Carnegie Mellon University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/33/CameraReady/ICML_v1.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>THOS: A Benchmark Dataset for Targeted Hate and Offensive Speech</em></td>
+      <td style="text-align: left">Saad A Almohaimeed (University of Central Florida)*; Saleh Almohaimeed (University of Central Florida); Ashfaq Ali Shafin (Florida International University); Bogdan Carbunar (Florida International University); Ladislau Boloni (University of Central Florida)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/34/CameraReady/DMLR_ICML23 (28).pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Understanding Unfairness via Training Concept Influence</em></td>
+      <td style="text-align: left">Yuanshun Yao (ByteDance); Yang Liu (UC Santa Cruz)*</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/35/CameraReady/_DMLR__concept_influence.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Promises and Pitfalls of Threshold-based Auto-labeling</em></td>
+      <td style="text-align: left">Harit Vishwakarma (University of Wisconsin Madison)*; Heguang Lin (University of Wisconsin-Madison); Frederic Sala (University of Wisconsin-Madison); Ramya Korlakai Vinayak (University of Wisconsin-Madison)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/36/CameraReady/TBAL_ICML_DMLR_2023-Camera-Ready.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Detecting Dataset Drift and Non-IID Sampling via k-Nearest Neighbors</em></td>
+      <td style="text-align: left">Jesse E Cummings (MIT)*; Jonas Mueller (Cleanlab); Elías Snorrason (Cleanlab)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/37/CameraReady/noniid_icml2023.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Data-Driven Approach for Formality-Sensitive Machine Translation: Language-Specific Handling and Synthetic Data Generation</em></td>
+      <td style="text-align: left">Seungjun Lee (Korea University)*; Hyeonseok Moon (Korea University); Chanjun Park (Upstage); Heuiseok Lim (Korea University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/38/CameraReady/icml2023_DMLR_Formality.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Towards Declarative Systems for Data-Centric Machine Learning</em></td>
+      <td style="text-align: left">Stefan Grafberger (University of Amsterdam); Bojan Karlaš (Harvard University); Paul Groth (University of Amsterdam); Sebastian Schelter (University of Amsterdam)*</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/41/CameraReady/autodc.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>DataCI: A Platform for Data-Centric AI on Streaming Data</em></td>
+      <td style="text-align: left">Huaizheng Zhang (BreezeML)*; Yizheng Huang (BreezeML); Yuanming Li (Independent Researcher)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/42/CameraReady/DataCI_v3_camera_ready.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>EPIC: Graph Augmentation with Edit Path Interpolation via Learnable Cost</em></td>
+      <td style="text-align: left">Jaeseung Heo (POSTECH)*; Seungbeom Lee (POSTECH); Sungsoo Ahn (POSTECH); Dongwoo Kim (POSTECH)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/43/CameraReady/_ICML2023_workshop__EPIC__Graph_Augmentation_with_Edit_Path_Interpolation_via_Learnable_Cost_cameraready.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Repeated Random Sampling for Minimizing the Time-to-Accuracy of Learning</em></td>
+      <td style="text-align: left">Patrik Okanovic (ETH Zurich); Roger Waleffe (University of Wisconsin-Madison)*; Vasilis Mageirakos (ETH Zurich); Konstantinos Nikolakakis (Yale University); Amin Karbasi (Yale); Dionysios Kalogerias (Yale University); Nezihe Merve Gürel (ETH Zürich); Theodoros Rekatsinas (ETH Zurich)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/46/CameraReady/RS2_DMLR_ICML_23_final_v2.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Data-Centric Defense: Shaping Loss Landscape with Augmentations to Counter Model Inversion</em></td>
+      <td style="text-align: left">Si  Chen  (Virginia Tech)*; Feiyang Kang (Virginia Tech); Nikhil Abhyankar (Virginia Tech); Ming Jin (Virginia Tech); Ruoxi Jia (Virginia Tech)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/47/CameraReady/poi4mi___extended_abstract.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Dataset Interfaces: Diagnosing Model Failures Using Controllable Counterfactual Generation</em></td>
+      <td style="text-align: left">Joshua L Vendrow (MIT)*; Saachi Jain (MIT); Logan Engstrom (MIT); Aleksander Madry (MIT)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/49/CameraReady/icml.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Performance Scaling via Optimal Transport: Enabling Data Selection from Partially Revealed Sources</em></td>
+      <td style="text-align: left">Feiyang Kang (Virginia Tech)*; Hoang Anh Just (Virginia Tech); Anit Kumar Sahu (Amazon Alexa AI); Ruoxi Jia (Virginia Tech)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/50/CameraReady/final_Extended_Abstract_for_Projektor.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Toward Practical Automatic Speech Recognition and Post-Processing: a Call for Explainable Error Benchmark Guideline</em></td>
+      <td style="text-align: left">Seonmin Koo (Korea University)*; Chanjun Park (Upstage); Jinsung Kim (Korea University); Jaehyung Seo (Korea University); Sugyeong Eo (Korea University); Hyeonseok Moon (Korea University); Heuiseok Lim (Korea University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/53/CameraReady/_icml2023__KALD_guidline.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>A Skew-Sensitive Evaluation Framework for Imbalanced Data Classification</em></td>
+      <td style="text-align: left">Min Du (Palo Alto Networks)*; Nesime Tatbul (Intel Labs and MIT); Brian Rivers (Intel); Akhilesh Kumar Gupta (University of Pennsylvania); Lucas Hu (Palo Alto Networks); Wei Wang (Palo Alto Networks); Ryan C Marcus (MIT); Shengtian Zhou (Snap); Insup Lee (University of Pennsylvania); Justin Gottschlich (Merly and Stanford University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/54/CameraReady/Weighted_Balanced_Accuracy___DMLR_2023 (11).pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Investigating minimizing the training set fill distance in machine learning regression</em></td>
+      <td style="text-align: left">Paolo Climaco (Institut für Numerische Simulation, Universität Bonn)*; Jochen Garcke (University Bonn)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/55/CameraReady/ICML_fillDistance_regression.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Evaluating the Capabilities of Multi-modal Reasoning Models with Synthetic Task Data</em></td>
+      <td style="text-align: left">Nathan Vaska (MIT Lincoln Laboratories)*; Victoria Helus (MIT Lincoln Laboratory)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/59/CameraReady/Vaska_ICML_Camera_Ready.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Addressing Discrepancies in Semantic and Visual Alignment in Neural Networks</em></td>
+      <td style="text-align: left">Natalie Abreu (MIT Lincoln Laboratory); Nathan Vaska (MIT Lincoln Laboratories)*; Victoria Helus (MIT Lincoln Laboratory)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/60/CameraReady/ICML_Abreu_CameraReady.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Knowledge Graph-Augmented Korean Generative Commonsense Reasoning</em></td>
+      <td style="text-align: left">Dahyun Jung (Korea University)*; Jaehyung Seo (Korea University); Jaewook Lee (Korea University); Chanjun Park (Upstage); Heuiseok Lim (Korea University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/65/CameraReady/ICML2023_KG.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias</em></td>
+      <td style="text-align: left">Yue Yu (Georgia Institute of Technology)*; Yuchen Zhuang (Georgia Institute of Technology); Jieyu Zhang (University of Washington); Yu Meng (University of Illinois Urbana-Champaign); Alexander J Ratner (University of Washington); Ranjay Krishna (University of Washington); Jiaming Shen (Google Research); Chao Zhang (Georgia Institute of Technology)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/68/CameraReady/_DMLR_23__AttrPrompt.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Principlism Guided Responsible Data Curation</em></td>
+      <td style="text-align: left">Jerone T A Andrews (Sony AI)*; Dora Zhao (Sony AI); William Thong (Sony AI); Apostolos Modas (Sony); Orestis Papakyriakopoulos (Sony AI); Alice Xiang (Sony AI)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/69/CameraReady/cam_rdy_dmlr_principlism.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>RewriteLM: An Instruction-Tuned Large Language Model for Text Rewriting</em></td>
+      <td style="text-align: left">Lei Shu (Google); Liangchen Luo (Google)*; Jayakumar Hoskere (Google); Yun Zhu (Google); Yinxiao Liu (Google); Simon Tong (Google); Jindong Chen (Google); Lei Meng (Google)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/71/CameraReady/RewriteLM__ICML23_workshop_ (1).pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Data-OOB: Out-of-bag Estimate as a Simple and Efficient Data Value</em></td>
+      <td style="text-align: left">Yongchan Kwon (Columbia University); James Zou (Stanford University)*</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/73/CameraReady/ICML2023_Data_OOB_DMLR.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Partial Label Learning meets Active Learning: Enhancing Annotation Efficiency through Binary Questioning</em></td>
+      <td style="text-align: left">Shivangana Rawat (Indian Institute of Technology, Hyderabad)*; Chaitanya Devaguptapu (Fujitsu Research); Vineeth Balasubramanian (Indian Institute of Technology Hyderabad)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/75/CameraReady/icml2023_camera_ready.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Characterizing Risk Regimes for Safe Deployment of Deep Regression Models</em></td>
+      <td style="text-align: left">Jayaraman J. Thiagarajan (Lawrence Livermore National Laboratory)*; Vivek Narayanaswamy (Lawrence Livermore National Laboratory); Puja Trivedi (University of Michigan); Rushil Anirudh (Lawrence Livermore National Laboratory)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/78/CameraReady/DMLR_Workshop_Failure_Detection_Final.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Improve Model Inference Cost with Image Gridding</em></td>
+      <td style="text-align: left">Shreyas Krishnaswamy (University of California, Berkeley)*; Lisa Dunlap (UC Berkeley); Lingjiao Chen (University of Wisconsin-Madison); Matei Zaharia (Stanford and Databricks); James Zou (Stanford University); Joey Gonzalez (Berkeley)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/79/CameraReady/Image_Gridding.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Towards an Efficient Algorithm for Time Series Forecasting with Anomalies</em></td>
+      <td style="text-align: left">Hao  Cheng (University of California, Santa Cruz); Qingsong Wen (Alibaba DAMO Academy)*; Yang Liu (UC Santa Cruz); Liang Sun (Alibaba Group)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/81/CameraReady/TSFA_DMLR.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Skill-it! A Data-Driven Skills Framework for Understanding and Training Language Models</em></td>
+      <td style="text-align: left">Mayee Chen (Stanford University)*; Nicholas Roberts (University of Wisconsin-Madison); Kush Bhatia (Stanford University); Jue WANG (Zhejiang University); Ce Zhang (ETH); Frederic Sala (University of Wisconsin-Madison); Christopher Re (Stanford University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/83/CameraReady/skillit_dmlr (4).pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>The Matrix Reloaded: A Counterfactual Perspective on Bias in Machine Learning</em></td>
+      <td style="text-align: left">Andre V Carreiro (Fraunhofer Portugal AICOS); Mariana Pinto (Faculty of Science and Technology, Nova University of Lisbon); Pedro S Madeira (Fraunhofer Portugal AICOS)*; Alberto Lopez (Imprensa Nacional - Casa da Moeda); Hugo Gamboa (LIBPhys, Faculdade de Ciências e Tecnologia, Universidade Noval de Lisboa)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/85/CameraReady/ICML_2023_DMLR_Workshop_Counterfactual_Confusion_Matrix.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Graphtester: Exploring Theoretical Boundaries of GNNs on Graph Datasets</em></td>
+      <td style="text-align: left">M. Eren Akbiyik (ETH Zurich)*; Florian Grötschla (ETH Zürich); Beni Egressy (ETH Zurich); Roger Wattenhofer (ETH Zurich)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/86/CameraReady/Graphtester (1).pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>No Imputation without Representation</em></td>
+      <td style="text-align: left">Oliver U Lenz (Universiteit Gent)*; Daniel Peralta (Ghent University ); Chris Cornelis (Ghent University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/87/CameraReady/20230701_missing-indicators.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>L3Cube-MahaSent-MD: A Multi-domain Marathi Sentiment Analysis Dataset and Transformer Models</em></td>
+      <td style="text-align: left">Aabha Pingle (Pune Institute of Computer Technology)*; Aditya  Vyawahare (Pune Institute of Computer Technology); Isha Joshi (Pune Institute of Computer Technology); Rahul Tangsali (SCTR’s Pune Institute of Computer Technology); Raviraj Joshi (Indian Institute of Technology Madras)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/88/CameraReady/Camera_ready_ICML2023_Dataset_Paper.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Point Cloud Classification with ModelNet40: What is left?</em></td>
+      <td style="text-align: left">Jarne Van den Herrewegen (Oqton / Ghent University)*; Tom Tourwé (Oqton); Francis Wyffels (Ghent University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/90/CameraReady/ICML_2023__ModelNet40 (3).pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>In or Out? Fixing ImageNet Out-of-Distribution Detection Evaluation</em></td>
+      <td style="text-align: left">Julian Bitterwolf (University of Tübingen)*; Maximilian Mueller (University of Tübingen); Matthias Hein (University of Tübingen)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/92/CameraReady/NINCO_camera_3MB.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Localized Data Work as a Precondition for Data-Centric ML: A Case Study of Full Lifecycle Crop Disease Identification in Ghana</em></td>
+      <td style="text-align: left">Darlington Akogo (minoHealth); Issah A Samori (minoHealth AI Labs); Cyril S K Akafia (minoHealth AI Labs); Harriet Dede Fiagbor (minoHealth AI Labs); Andrews A Kangah (KaraAgro AI Labs); Donald Donald (KaraAgro); Kwabena Fuachie (Kara Agro AI); Luis Oala ( Dotphoton AG)*</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/94/CameraReady/output.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Offline Reinforcement Learning with Imbalanced Datasets</em></td>
+      <td style="text-align: left">Li Jiang (Tsinghua University)*; Sijie Chen (Fudan University); Jielin Qiu (Carnegie Mellon University); Haoran Xu (JD Technology); Victor Chan (TBSI); DING ZHAO (Carnegie Mellon University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/95/CameraReady/_ICML_2023__Li_Project (1).pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Bayesian Optimisation Against Climate Change: Applications and Benchmarks</em></td>
+      <td style="text-align: left">Sigrid Passano Hellan (University of Edinburgh)*; Christopher Lucas (University of Edinburgh); Nigel Goddard (University of Edinburgh)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/96/CameraReady/BOACC_icml-camera.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>On the Usefulness of Synthetic Tabular Data Generation</em></td>
+      <td style="text-align: left">Dionysis Manousakas (Amazon)*; Sergul Aydore (Amazon)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/98/CameraReady/main.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Active learning for time instant classification</em></td>
+      <td style="text-align: left">Nauman Ahad (Georgia Institute of Technology)*; Namrata Nadagouda (Georgia Institute of Technology); Eva L Dyer (Georgia Tech); Mark Davenport (Georgia Institute of Technology)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/100/CameraReady/camera_ready_paper.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Speech Wikimedia: A 77 Language Multilingual Speech Dataset</em></td>
+      <td style="text-align: left">Rafael Mosquera Gómez (MLCommons); Julian Eusse (MLCommons); Juan Manual Ciro (Factored); Daniel Galvez (NVIDIA)*; Ryan Hileman (Talon Voice); Kurt Bollacker (The Long Now Foundation); David Kanter (MLCommons)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/102/CameraReady/Speech_Wikimedia (4).pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Data-Efficient Contrastive Self-supervised Learning: Most Beneficial Examples for Supervised Learning Contribute the Least</em></td>
+      <td style="text-align: left">Siddharth Joshi (UCLA)*; Baharan Mirzasoleiman (UCLA)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/104/CameraReady/efficient_contrastive_learning_dmlr_workshop-compressed_1.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Characterizing the Impacts of Semi-supervised Learning for Weak Supervision</em></td>
+      <td style="text-align: left">Jeffrey Li (University of Washington)*; Jieyu Zhang (University of Washington); Ludwig Schmidt (University of Washington); Alexander J Ratner (University of Washington)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/107/CameraReady/SSL4WS_ICML_Workshop_DMLR.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Estimating label quality and errors in semantic segmentation data via any model</em></td>
+      <td style="text-align: left">Vedang Lad (MIT); Jonas Mueller (Cleanlab)*</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/110/CameraReady/segment_errors_icml2023.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>STG-MTL: Scalable Task Grouping for Multi-Task Learning Using Data Maps</em></td>
+      <td style="text-align: left">Ammar Sherif (Nile University)*; Abubakar Abid (Hugging Face); Mustafa Elattar (Nile University); Mohamed ElHelw (Nile University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/111/CameraReady/STG_MTL Camera Ready.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>ObjectLab: Automated Diagnosis of Mislabeled Images in Object Detection Data</em></td>
+      <td style="text-align: left">Ulyana Tkachenko (Cleanlab); Aditya Thyagarajan (CleanLab); Jonas Mueller (Cleanlab)*</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/112/CameraReady/objectlab_icml2023_lowerres.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Beyond Scale: the Diversity Coefficient as a Data Quality Metric Demonstrates LLMs are Pre-trained on Formally Diverse Data</em></td>
+      <td style="text-align: left">Alycia Y Lee (Stanford University)*; Brando Miranda (Stanford University); Sanmi Koyejo (Stanford University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/113/CameraReady/ICML_2023_DMLR_Workshop__Diversity_Coefficient___LLMs__8pg_.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Learning pipeline-invariant representation for robust brain phenotype prediction</em></td>
+      <td style="text-align: left">Xinhui Li (Georgia Institute of Technology)*; Alex Fedorov (Georgia Institute of Technology); Mrinal Mathur (Georgia State University); Anees Abrol (TReNDS); Gregory  Kiar (Child Mind Institute); Sergey Plis (Georgia State University); Vince Calhoun (TReNDS)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/114/CameraReady/ICML_DMLR_2023.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Is Pre-training Truly Better Than Meta-Learning?</em></td>
+      <td style="text-align: left">Brando Miranda (Stanford University)*; Patrick Yu (University of Illinois Urbana-Champaign); Saumya Goyal (Stanford University); Yu-Xiong Wang (University of Illinois at Urbana-Champaign); Sanmi Koyejo (Stanford University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/117/CameraReady/MAML_vs_PT___NeurIPS__ICML_2023__Draft_2_.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Adaptive Aggregated Drift Detector</em></td>
+      <td style="text-align: left">Beverly A Quon (University of California, Irvine)*; Jean-Luc Gaudiot (University of California, Irvine)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/120/CameraReady/quon_DMLR_2023_final.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>On Estimating the Epistemic Uncertainty of Graph Neural Networks using Stochastic Centering</em></td>
+      <td style="text-align: left">Puja Trivedi (University of Michigan)*; Mark Heimann (Lawrence Livermore); Rushil Anirudh (Lawrence Livermore National Laboratory); Danai Koutra (U Michigan); Jayaraman J. Thiagarajan (Lawrence Livermore National Laboratory)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/121/CameraReady/23_DMLR_GraphUQ-2.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>LabelBench: A Comprehensive Framework for Benchmarking Label-Efficient Learning</em></td>
+      <td style="text-align: left">Jifan Zhang (University of Wisconsin)*; Yifang Chen (University of Washington); Gregory H Canal (University of Wisconsin-Madison); Stephen O Mussmann (University of Washington); Yinglun Zhu (University of Wisconsin-Madison); Simon Du (University of Washington); Kevin Jamieson (U Washington); Robert Nowak (University of Wisconsin, Madison)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/124/CameraReady/LabelBench__DMLR_workshop_.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Internet Explorer: Targeted Representation Learning on the Open Web</em></td>
+      <td style="text-align: left">Alexander C Li (Carnegie Mellon University)*; Ellis L Brown (Carnegie Mellon University); Alexei A Efros (UC Berkeley); Deepak Pathak (Carnegie Mellon University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/125/CameraReady/InternetExplorer_ExtendedAbsFinal.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Uncovering Neural Scaling Law in Molecular Representation Learning</em></td>
+      <td style="text-align: left">Dingshuo Chen (University of Chinese Academy of Sciences)*; Yanqiao ZHU (University of California, Los Angeles); Jieyu Zhang (University of Washington); Yuanqi Du (Cornell University); Zhixun Li (The Chinese University of Hong Kong); Qiang Liu (Institute of Automation, Chinese Academy of Sciences); Shu Wu (NLPR, China); Liang Wang (NLPR, China)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/126/CameraReady/Camera ready version.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>MultiLegalPile: A 689GB Multilingual Legal Corpus</em></td>
+      <td style="text-align: left">Joel Niklaus (University of Bern)*; Veton Matoshi (Bern University of Applied Sciences); Matthias Stürmer (University of Bern); Ilias Chalkidis (University of Copenhagen); Daniel Ho (Stanford Law)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/127/CameraReady/MultiLegalPile__A_689GB_Multilingual_Legal_Corpus__DMLR___ICML23_.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Self-supervised Autoencoder for Correlation-Preserving in Tabular GANs</em></td>
+      <td style="text-align: left">Siddarth Ramesh (Adobe); Surgan Jandial (MDSR Labs, Adobe)*; Gauri Gupta (MIT); Piyush Gupta (Adobe Systems India Pvt Ltd); Balaji Krishnamurthy ()</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/130/CameraReady/130_2.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>D4: Improving LLM Pretraining via Document De-Duplication and Diversification</em></td>
+      <td style="text-align: left">Kushal Tirumala (FAIR)*; Daniel Simig (Meta AI); Armen Aghajanyan (FAIR); Ari S Morcos (Facebook AI Research (FAIR))</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/131/CameraReady/LLM_Data_Pruning_Paper_Camera_Ready.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Ensemble Fractional Imputation for Incomplete Categorical Data with a Graphical Model</em></td>
+      <td style="text-align: left">Yonghyun Kwon (Iowa State University)*; Jae  Kwang Kim (Iowa State University)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/135/CameraReady/DMLR_paper.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Put on your detective hat: What’s wrong in this video?</em></td>
+      <td style="text-align: left">Rohith Peddi (The University of Texas at Dallas)*; Shivvrat Arya (The University of Texas at Dallas ); Bharath Challa (The University of Texas at Dallas); Likhitha  Pallapothula (University of Texas at Dallas ); AKSHAY VYAS (University of Texas at Dallas); Qifan Zhang (The University of Texas at Dallas); Jikai Wang (University of Texas at Dallas); Vasundhara Komaragiri (UT Dallas); Eric  Ragan (University of Florida); Nicholas Ruozzi (UT Dallas); Yu Xiang (The University of Texas at Dallas); Vibhav Gogate (UT Dallas)</td>
+      <td style="text-align: left"><a href="https://dmlr.ai/assets/accepted-papers/136/CameraReady/DMLR_ICML_2023_1.pdf">pdf</a></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="posters-without-manuscript">Posters without manuscript</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>Paper Title</strong></th>
+      <th style="text-align: left"><strong>Authors</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><em>Regularizing Neural Networks with Meta-Learning Generative Models</em></td>
+      <td style="text-align: left">Shin’ya Yamaguchi (NTT / Kyoto University)*; Daiki Chijiwa (NTT); Sekitoshi Kanai (NTT); Atsutoshi Kumagai (NTT Computer and Data Science Laboratories); Hisashi Kashima (Kyoto University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>To Aggregate or Not? Learning with Separate Noisy Labels</em></td>
+      <td style="text-align: left">Jiaheng Wei (UCSC)*; Zhaowei Zhu (University of California, Santa Cruz); Tianyi Luo (Amazon); Ehsan Amid (Google Brain); Abhishek Kumar (Google Brain); Yang Liu (UC Santa Cruz)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Early Experiments in Scalable Dataset Selection for Self-Supervised Learning in Geospatial Imagery Models</em></td>
+      <td style="text-align: left">Muhammed T Razzak (University of Oxford)*; Anthony Ortiz (Microsoft); Caleb Robinson (Microsoft AI for Good Research Lab)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Unitail: A Benchmark for Detecting, Reading, and Matching in Retail Scene</em></td>
+      <td style="text-align: left">Fangyi Chen (Carnegie Mellon University)*; Han Zhang (CMU); Hao Chen (Carnegie Mellon University); Kai Hu (Carnegie Mellon University); Jiachen Dou (Carnegie Mellon University); zaiwang li (pitt); Chenchen Zhu (Meta); Marios Savvides (Carnegie Mellon University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>CD-GraB: Coordinating Distributed Example Orders for Provably Accelerated Training</em></td>
+      <td style="text-align: left">A. Feder Cooper (Cornell University)*; Wentao Guo (Cornell University); Duc Khiem Pham (Cornell University); Tiancheng Yuan (Cornell University); Charlie F Ruan (Cornell University); Yucheng Lu (Cornell University); Christopher De Sa (Cornell University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>How to Cope with Gradual Data Drift?</em></td>
+      <td style="text-align: left">Rasool Fakoor (AWS)*; Jonas Mueller (Cleanlab); Zachary  Lipton (Carnegie Mellon University); Pratik A Chaudhari (University of Pennsylvania); Alex J Smola (Amazon)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Programmable Synthetic Tabular Data Generation</em></td>
+      <td style="text-align: left">Mark Vero (ETH Zurich)*; Mislav Balunovic (ETH Zurich); Martin Vechev (ETH Zurich)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Prioritized Trajectory Replay: A Replay Memory for Data-driven Reinforcement Learning</em></td>
+      <td style="text-align: left">Jinyi Liu (Tianjin University)*; Yi Ma (Tianjin University); Jianye Hao (Tianjin University); Yujing Hu (NetEase Fuxi AI Lab); Yan Zheng (Tianjin University); Tangjie Lv (NetEase Fuxi AI Lab); Changjie Fan (NetEase Fuxi AI Lab)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Probing Heterogeneous Pretraining Datasets with Small Curated Datasets</em></td>
+      <td style="text-align: left">Gregory Yauney (Cornell University)*; Emily Reif (Google); David Mimno (Cornell University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Participatory Personalization in Classification</em></td>
+      <td style="text-align: left">Hailey Joren (UC San Diego)*; Chirag Nagpal (Carnegie Mellon University); Katherine Heller (Google); Berk Ustun (UCSD)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Fair Machine Unlearning: Data Removal while Mitigating Disparities</em></td>
+      <td style="text-align: left">Alex Oesterling (Harvard University)*; Jiaqi Ma (University of Illinois Urbana-Champaign); Flavio Calmon (Harvard University); Himabindu Lakkaraju (Harvard)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Evaluating the Evaluators: Are Current Few-Shot Learning Benchmarks Fit for Purpose?</em></td>
+      <td style="text-align: left">Luísa B Shimabucoro (Universidade de São Paulo); Timothy Hospedales (Edinburgh University); Henry Gouk (University of Edinburgh)*</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>TMARS: Improving Visual Representations by Circumventing Text Feature Learning</em></td>
+      <td style="text-align: left">Pratyush Maini (IIT Delhi); Sachin Goyal (Carnegie Mellon University)*; Zachary  Lipton (Carnegie Mellon University); Zico Kolter (Carnegie Mellon University); Aditi Raghunathan (Carnegie Mellon University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Do Machine Learning Models Learn Statistical Rules Inferred from Data?</em></td>
+      <td style="text-align: left">Aaditya Naik (University of Pennsylvania)*; Yinjun Wu (University of Pennsylvania); Mayur Naik (University of Pennsylvania); Eric Wong (University of Pennsylvania)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Predicting Article Time Periods with Text2Time: A Transformer-based Approach</em></td>
+      <td style="text-align: left">KARTHICK  GUNASEKARAN (KARTHICK GUNASEKARAN)*</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Making Scalable Meta Learning Practical</em></td>
+      <td style="text-align: left">Sang Keun Choe (Carnegie Mellon University)*; Sanket Vaibhav Mehta (Carnegie Mellon University); Hwijeen Ahn (Carnegie Mellon University); Willie Neiswanger (Stanford University); Pengtao Xie (UC San Diego); Emma Strubell (Carnegie Mellon University); Eric Xing (MBZUAI, CMU, and Petuum Inc.)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Learning Better with Less: Effective Augmentation for Sample-Efficient Visual Reinforcement Learning</em></td>
+      <td style="text-align: left">Guozheng Ma (Tsinghua University)*; Linrui Zhang (Tsinghua University); Haoyu Wang (Tsinghua University); Lu Li (Tsinghua University); Zilin Wang (Tsinghua University); Zhen Wang (The University of Sydney ); Li Shen (JD Explore Academy); Xueqian Wang (Tsinghua University); Dacheng Tao (The University of Sydney)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Enhancing Time Series Forecasting Models under Concept Drift by Data-centric Online Ensembling</em></td>
+      <td style="text-align: left">Yi-Fan Zhang (NLPR, China)*; Qingsong Wen (Alibaba DAMO Academy); Xue Wang (Alibaba DAMO Academy); Weiqi Chen (Alibaba Group); Liang Sun (Alibaba Group); Zhang Zhang (Institute of Automation, Chinese Academy of Sciences); Liang Wang (NLPR, China); Rong Jin (Twitter); Tieniu Tan (NLPR, China)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Data Banzhaf: A Robust Data Valuation Framework for Machine Learning</em></td>
+      <td style="text-align: left">Jiachen T. Wang (Princeton University)*; Ruoxi Jia (Virginia Tech)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>A Privacy-Friendly Approach to Data Valuation</em></td>
+      <td style="text-align: left">Jiachen T. Wang (Princeton University)*; Yuqing Zhu (UC Santa Barbara); Yu-Xiang Wang (UC Santa Barbara); Ruoxi Jia (Virginia Tech); Prateek Mittal (Princeton University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>On Robustness-Accuracy Characterization of Large Language Models using Synthetic Datasets</em></td>
+      <td style="text-align: left">Ching-Yun Ko (MIT)*; Pin-Yu Chen (IBM Research); Payel Das (IBM Research); Yung-Sung Chuang (MIT); Luca Daniel (Massachusetts Institute of Technology)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>On Memorization and Privacy risks of Sharpness Aware Minimization</em></td>
+      <td style="text-align: left">Young In Kim (Purdue University)*; Pratiksha Agrawal (Purdue University); Johannes Royset (Naval Postgraduate School); Rajiv Khanna (Purdue University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Does Progress On Object Recognition Benchmarks Improve Real-World Generalization?</em></td>
+      <td style="text-align: left">Megan Richards (Meta)*; Diane Bouchacourt (Meta); Mark Ibrahim (Meta); Polina Kirichenko (New York University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>On the Reproducibility of Data Valuation under Learning Stochasticity</em></td>
+      <td style="text-align: left">Jiachen T. Wang (Princeton University)*; Feiyang Kang (Virginia Tech); Chiyuan Zhang (MIT); Ruoxi Jia (Virginia Tech); Prateek Mittal (Princeton University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Why Do Self-Supervised Models Transfer? On Data Augmentation and Feature Properties</em></td>
+      <td style="text-align: left">Linus Ericsson (University of Edinburgh)*; Henry Gouk (University of Edinburgh); Timothy Hospedales (Edinburgh University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>On Data Quality and Speed of Training: Bad Data Slows Training</em></td>
+      <td style="text-align: left">Newsha Ardalani (Meta AI (FAIR))*; Mostafa Elhoushi (Meta); Carole-Jean Wu (Meta AI)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Suboptimal Data Can Bottleneck Scaling</em></td>
+      <td style="text-align: left">Jacob Buckman (Mila)*; Kshitij Gupta (Mila); Ethan Caballero (Mila); Rishabh Agarwal (Google Research, Brain Team); Marc G. Bellemare (Google Brain)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Prediction without Preclusion Recourse Verification with Reachable Sets</em></td>
+      <td style="text-align: left">Avni Kothari (UC San Diego)*; Berk Ustun (UCSD); Lily Weng (UCSD); Bogdan Kulynych (EPFL)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Birds of an Odd Feather: Guaranteed Out-of-Distribution (OOD) Novel Category Detection</em></td>
+      <td style="text-align: left">Yoav Wald (Johns Hopkins)*; Suchi Saria (Johns Hopkins University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Mobile Internet Quality Estimation using Self-Tuning Kernel Regression</em></td>
+      <td style="text-align: left">Hanyang Jiang (Georgia Institute of Technology)*; Yao Xie (Georgia Tech); Ellen Zegura (Georgia Tech); Elizabeth Belding (University of California, Santa Barbara); Shaowu Yuchi (Georgia Institute of Technology)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Decoupled Graph Label Denoising for Robust Semi-Supervised Node Classification</em></td>
+      <td style="text-align: left">Kaize Ding (Arizona State University)*; Yancheng Wang (Arizona State University); Huan Liu (Arizona State University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Can Expert Demonstration Guarantee Offline Performance in Sparse Reward Environment?</em></td>
+      <td style="text-align: left">Jeyeon Eo (Soongsil University)*; Dongsu Lee (Soongsil University ); Minhae Kwon (Soongsil University)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Improving multimodal datasets with image captioning</em></td>
+      <td style="text-align: left">Thao T Nguyen (University of Washington)*; Samir Gadre (Columbia University); Gabriel Ilharco (University of Washington); Sewoong Oh (University of Washington); Ludwig Schmidt (University of Washington)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>Identifying Implicit Social Biases in Vision-Language Models</em></td>
+      <td style="text-align: left">Kimia Hamidieh (University of Toronto, Vector Institute)*; Haoran Zhang (MIT); Thomas Hartvigsen (MIT); Marzyeh Ghassemi (University of Toronto, Vector Institute)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>SemDeDup: Data-efficient learning at web-scale through semantic deduplication</em></td>
+      <td style="text-align: left">Amro Abbas (Meta)*; Daniel Simig (Meta AI); Surya Ganguli (Stanford University); Ari S Morcos (Facebook AI Research (FAIR)); Kushal Tirumala (FAIR)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><em>PhysicsCAP: Dynamic Captions For Natural Scene Changes</em></td>
+      <td style="text-align: left">Hidetomo Sakaino (Weathernews Inc.)*</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    <!-- &copy; Copyright 2024 DMLR  Data-centric Machine Learning Research. -->
+    Thanks to <a href="https://github.com/alshedivat/al-folio">Maruan</a> for the neat theme base
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<script src="/assets/js/dark_mode.js"></script>
+
+
+</html>
