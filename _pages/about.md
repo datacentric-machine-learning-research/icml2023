@@ -161,6 +161,7 @@ The workshop will be organized in four components:
 * Poster sessions
 * Networking sessions
 
+For accepted papers, please see the details on the [Program](https://dmlr.ai/program/) page.
 
 # About DMLR
 

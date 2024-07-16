@@ -18,8 +18,16 @@ nav-order: 2
 |12:00 - 12:30 | General Announcements |
 |12:30 - 14:00 | Lunch Break |
 |14:00 - 14:45 | Invited Talk 3: Lucas Beyer |
-|14:45 - 15:30 | Invited Talk 4: Joaquin Vanschoren |
+|14:45 - 15:30 | Invited Talk 4: TBC |
 |15:30 - 16:00 | Coffee / Networking Break |
 |16:00 - 16:50 | Poster Session |
 |16:50 - 17:00 | Concluding Remarks |
 |19:00 - 21:00 | Post-workshop Social Event |
+
+**Accepted Papers**
+
+All authors of accepted papers are invited to present a poster:
+
+* For the poster session, please make posters up to 36in height and 24in width, in portrait format, per the conference instructions for workshop posters https://icml.cc/Conferences/2024/PosterInstructions. 
+* Please come set up your poster earlier in the day to ensure that the poster session runs smoothly. The poster session itself runs from 4pm to 4:50pm.
+* If possible, please arrange for someone to be in person to present the poster. If that is not possible, please let us know - we will set up a virtual presentation if there are enough posters virtually.
