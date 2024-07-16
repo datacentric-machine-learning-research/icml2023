@@ -10,19 +10,21 @@ nav-order: 2
 
 **Schedule**
 
-|09:00 - 09:15 | Introduction |
-|09:15 - 10:00 | Invited Talk 1: Aditi Raghunathan |
-|10:00 - 10:45 | Invited Talk 2: Stella Biderman |
-|10:45 - 11:00 | Break |
-|11:00 - 12:00 | Panel |
-|12:00 - 12:30 | General Announcements |
-|12:30 - 14:00 | Lunch Break |
-|14:00 - 14:45 | Invited Talk 3: Lucas Beyer |
-|14:45 - 15:30 | Invited Talk 4: TBC |
-|15:30 - 16:00 | Coffee / Networking Break |
-|16:00 - 16:50 | Poster Session |
-|16:50 - 17:00 | Concluding Remarks |
-|19:00 - 21:00 | Post-workshop Social Event |
+|09:00 - 09:15 | &nbsp; Introduction |
+|09:15 - 10:00 | &nbsp; Invited Talk 1: Aditi Raghunathan |
+|10:00 - 10:45 | &nbsp; Invited Talk 2: Stella Biderman |
+|10:45 - 11:00 | &nbsp; Break |
+|11:00 - 12:00 | &nbsp; Panel |
+|12:00 - 12:30 | &nbsp; General Announcements |
+|12:30 - 14:00 | &nbsp; Lunch Break |
+|14:00 - 14:45 | &nbsp; Talk 3: Lucas Beyer |
+|14:45 - 15:30 | &nbsp; Invited Talk 4: TBC |
+|15:30 - 16:00 | &nbsp; Coffee / Networking Break |
+|16:00 - 16:50 | &nbsp; Poster Session |
+|16:50 - 17:00 | &nbsp; Concluding Remarks |
+|19:00 - 21:00 | &nbsp; Post-workshop Social Event |
+
+<br>
 
 **Accepted Papers**
 
