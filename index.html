@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>DMLR  Data-centric Machine Learning Research</title>
+<meta name="description" content="...">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<!-- <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" /> -->
+<link rel="stylesheet" href="https://combinatronics.io/jwarby/pygments-css/master/github.css" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/">
+
+<!-- Theming-->
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+        <!-- Social Icons -->
+        <div class="row ml-1 ml-sm-0">
+          <span class="contact-icon text-center">
+  <a href="https://twitter.com/DMLRWorkshop" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a><a href="https://discord.gg/FswYXMv4j9" title="Discord"><i class="fab fa-discord"></i></a>
+  
+  
+  
+  
+  <a href="https://github.com/datacentric-machine-learning-research" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+  
+  
+  
+  
+  
+  
+</span>
+
+        </div>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/">
+              About
+              
+                <span class="sr-only">(current)</span>
+              
+            </a>
+          </li>
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/cfp-icml24/">
+                CfP ICML 2024
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/program/">
+                Program
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/organizers/">
+                Organizers
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/reviewers/">
+                Reviewers
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/previous/">
+                Previous Workshops
+                
+              </a>
+          </li>
+          
+          
+          
+
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">
+     <span class="font-weight-bold">DMLR&nbsp;</span>Data-centric Machine Learning Research
+    </h1>
+     <p class="desc"></p>
+  </header>
+
+  <article>
+    
+    <div class="profile float-right">
+      
+      
+    </div>
+    
+
+    <div class="clearfix">
+      <h3 id="icml-2024">ICML 2024</h3>
+<ul>
+  <li><a href="https://dmlr.ai/cfp-icml24/">Call for papers</a></li>
+  <li><a href="https://dmlr.ai/program/">Program</a></li>
+  <li><a href="https://openreview.net/group?id=ICML.cc/2024/Workshop/DMLR">Submission portal</a></li>
+</ul>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/time.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    A timeline of inflection points in the development of data-centric ideas. See the editorial <a href="https://openreview.net/forum?id=2kpu78QdeE">DMLR: Data-centric Machine Learning Research -- Past, Present and Future</a> for more details.
+</div>
+<p><br /></p>
+
+<h1 id="speakers">Speakers</h1>
+<div class="projects grid">
+
+  
+  
+  <div class="grid-item">
+    
+    <a href="/speakers/lucas/">
+    
+      <div class="card hoverable">
+        
+        <img src="/assets/img/lucas.jpg" alt="speaker thumbnail" />
+        
+        <div class="card-body">
+          <h3 class="card-title">Lucas Beyer</h3>
+          <p class="card-title">Google Brain</p>
+          <p class="card-text"></p>
+          <br />
+          <div class="row ml-1 mr-1 p-0">
+            
+            
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="Website">
+                <a href="http://lucasb.eyer.be/" target="_blank"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+            
+            
+            
+            
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="Google Scholar">
+                <a href="https://scholar.google.com/citations?user=p2gwhK4AAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-item">
+    
+    <a href="/speakers/stella/">
+    
+      <div class="card hoverable">
+        
+        <img src="/assets/img/stella.jpg" alt="speaker thumbnail" />
+        
+        <div class="card-body">
+          <h3 class="card-title">Stella Biderman</h3>
+          <p class="card-title">EleutherAI</p>
+          <p class="card-text">Executive Director</p>
+          <br />
+          <div class="row ml-1 mr-1 p-0">
+            
+            
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="Website">
+                <a href="https://www.stellabiderman.com/home" target="_blank"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+            
+            
+            
+            
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="Google Scholar">
+                <a href="https://scholar.google.co.uk/citations?user=bO7H0DAAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-item">
+    
+    <a href="/speakers/aditi/">
+    
+      <div class="card hoverable">
+        
+        <img src="/assets/img/aditi.jpeg" alt="speaker thumbnail" />
+        
+        <div class="card-body">
+          <h3 class="card-title">Aditi Raghunathan</h3>
+          <p class="card-title">Carnegie Mellon University</p>
+          <p class="card-text">Assistant Professor</p>
+          <br />
+          <div class="row ml-1 mr-1 p-0">
+            
+            
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="Website">
+                <a href="https://www.cs.cmu.edu/~aditirag/" target="_blank"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+            
+            
+            
+            
+            <div class="col-sm-2">
+              <div class="icon" data-toggle="tooltip" title="Google Scholar">
+                <a href="https://scholar.google.com/citations?user=Ch9iRwQAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+</div>
+<p><br /></p>
+
+<h3 id="topics-and-theme">Topics and Theme</h3>
+
+<p>This is the fifth edition of highly successful workshops focused on data-centric AI, following the success of the Data-Centric AI workshop at NeurIPS 2021, ICML 2022, ICML 2023, and ICLR 2024.</p>
+
+<h4 id="theme">Theme</h4>
+
+<p>Large-scale foundation models are revolutionizing machine learning, particularly in vision and language domains. While model architecture received significant attention in the past, recent focus has shifted towards the importance of data quality, size, and diversity, and provenance.</p>
+
+<p>This workshop aims to highlight cutting-edge advancements in data-centric approaches for large-scale foundation models in new domains, in addition to language and vision, and engage the vibrant interdisciplinary community of researchers, practitioners, and engineers who tackle practical data challenges related to foundation models. By featuring innovative research and facilitating collaboration, it aims to bridge the gap between dataset-centric methodologies and the development of robust, versatile foundation models that are able to work in and across a variety of domains in service of humanity.</p>
+
+<h4 id="topics-will-include-but-are-not-limited-to">Topics will include, but are not limited to</h4>
+<ul>
+  <li>Data sources for large-scale datasets:</li>
+  <li>Construction of datasets from large quantities of unlabeled/uncurated data</li>
+  <li>Model-assisted dataset construction</li>
+  <li>Quality signals for large-scale datasets</li>
+  <li>Datasets for evaluation</li>
+  <li>Datasets for specific applications.</li>
+  <li>Impact of dataset drifts in large-scale models</li>
+  <li>Ethical considerations for and governance of large-scale datasets</li>
+  <li>Data curation and HCI</li>
+  <li>Submissions to benchmarks such as <a href="https://www.dataperf.org/">DataPerf</a>, <a href="https://dynabench.org/">DynaBench</a>, and <a href="https://www.datacomp.ai/">DataComp</a></li>
+</ul>
+
+<p>If you are looking for examples of works previously presented at DMLR, you can find a list of papers <a href="https://dmlr.ai/iclr24/accepted/">here</a>.</p>
+
+<p>An overview of the history and vision behind DMLR, including links to previous keynotes, you can find in our editorial <a href="https://openreview.net/forum?id=2kpu78QdeE">DMLR: Data-centric Machine Learning Research – Past, Present and Future</a>.</p>
+
+<h3 id="awards">Awards</h3>
+
+<p>A few selected exceptional research papers from DMLR workshop 2024 will be invited to contribute to the <strong>DMLR journal</strong>; the latest member of the JMLR family, aiming to provide a top archival venue for high-quality scholarly articles focused on the data aspect of machine learning research. The top submissions to the DMLR workshops will be invited to submit extended versions of their papers to the DMLR journal.</p>
+
+<h3 id="logistics">Logistics</h3>
+
+<p><strong>Important Dates</strong></p>
+
+<p>(Time zone: Anywhere on Earth)</p>
+
+<ul>
+  <li>Paper Submission deadline: <del>May 24, 2024</del> May 30, 2024</li>
+  <li>Notification of Acceptance: June 17, 2024</li>
+  <li>Camera Ready Copy due: July 12, 2024</li>
+</ul>
+
+<p><strong>Session organization: virtual + in-person engagement</strong></p>
+
+<p>We aim at a discussion-centric workshop to allow for in-depth coverage of state-of-art and work-in-progress
+efforts and panel discussion and poster presentation along the data lifecycle in machine learning research and
+engineering: creation, quality and processing, governance and management/infrastructure.</p>
+
+<p>The workshop will be organized in four components:</p>
+<ul>
+  <li>Keynotes and invited talks</li>
+  <li>Open panel discussions</li>
+  <li>Poster sessions</li>
+  <li>Networking sessions</li>
+</ul>
+
+<p>For accepted papers, please see the details on the <a href="https://dmlr.ai/program/">Program</a> page.</p>
+
+<h1 id="about-dmlr">About DMLR</h1>
+
+<p>DMLR is an open, distributed community organizing activities to discuss and advance research in data-centric machine learning.</p>
+
+<p>We organize <a href="https://dmlr.ai/">workshops and research retreats</a>, maintain <a href="https://data.mlr.press/">a journal</a>, and run a <a href="https://mlcommons.org/working-groups/research/dmlr/">working group at Machine Learning Commons (MLC)</a> to support infrastructure projects.</p>
+
+<p>You can find more details about the scope and history of our activities in the editorial <a href="https://openreview.net/forum?id=2kpu78QdeE">Data-centric Machine Learning Research – Past, Present and Future</a>.</p>
+
+<!-- 
+  <div class="news">
+  <h2>News</h2>
+  
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      
+      
+        <tr>
+          <th scope="row">Mar 16, 2023</th>
+          <td>
+            
+              <a class="news-title" href="/news/itshappening/">DMLR will take place at ICML 2023</a>
+            
+          </td>
+        </tr>
+      
+      </table>
+    </div>
+  
+</div>
+
+ -->
+
+<!-- <div class='jekyll-twitter-plugin'><a class="twitter-timeline" data-width="1000" data-tweet-limit="5" href="https://twitter.com/icmlconf?ref_src=twsrc%5Etfw">Tweets by icmlconf</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div> -->
+
+    </div>
+
+    <!-- 
+    
+      <div class="news">
+  <h2>News</h2>
+  
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      
+      
+        <tr>
+          <th scope="row">Mar 16, 2023</th>
+          <td>
+            
+              <a class="news-title" href="/news/itshappening/">DMLR will take place at ICML 2023</a>
+            
+          </td>
+        </tr>
+      
+      </table>
+    </div>
+  
+</div>
+
+    
+    -->
+
+    
+
+    
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    <!-- &copy; Copyright 2024 DMLR  Data-centric Machine Learning Research. -->
+    Thanks to <a href="https://github.com/alshedivat/al-folio">Maruan</a> for the neat theme base
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<script src="/assets/js/dark_mode.js"></script>
+
+
+</html>
