@@ -14,11 +14,11 @@ nav-order: 2
 |09:15 - 10:00 | &nbsp; Invited Talk 1: Aditi Raghunathan |
 |10:00 - 10:45 | &nbsp; Invited Talk 2: Stella Biderman |
 |10:45 - 11:00 | &nbsp; Break |
-|11:00 - 12:00 | &nbsp; Panel |
+|11:00 - 12:00 | &nbsp; Panel: Angéline Pouget, Matthias Gerstgrasser, Brandon Duderstadt, Lucas Beyer, Ce Zhang |
 |12:00 - 12:30 | &nbsp; General Announcements |
 |12:30 - 14:00 | &nbsp; Lunch Break |
 |14:00 - 14:45 | &nbsp; Talk 3: Lucas Beyer |
-|14:45 - 15:30 | &nbsp; Invited Talk 4: TBC |
+|14:45 - 15:30 | &nbsp; Paper Talks: Angéline Pouget, Matthias Gerstgrasser, Rafael Rafailov |
 |15:30 - 16:00 | &nbsp; Coffee / Networking Break |
 |16:00 - 16:50 | &nbsp; Poster Session |
 |16:50 - 17:00 | &nbsp; Concluding Remarks |
